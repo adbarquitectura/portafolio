@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import logo from './assets/images/logos/Logo.png';
 import './App.css';
+import dataProjects from './Data-proyectos';
 
 function App() {
+  const projects = dataProjects.proyectos;
+  console.log(projects);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {
+        projects.map((project, index) => {
+          return (
+            <div key={index}>
+              {project.name}
+              <img src={project.img} />
+              {project.tecnologies.map((tecnology, indx) => {
+                return (
+                  <div key={indx}>
+                    {tecnology.nameTecnology}
+                  </div>
+                )
+
+              })}
+
+            </div>
+
+          )
+        })
+      }
+      <img src={logo} />
     </div>
   );
 }
