@@ -7,7 +7,7 @@ export default{
             "description": "Landing page para fundacion Comida para todos",            
             "repository":"https://github.com/adbarquitectura/SCL014-comida-para-todos.git",
             "url": "https://comida-para-todos-page.web.app/",
-            "img": "./src/assets/images/data-projects/projComida.png",
+            "img": "./assets/images/logos/Logo.png",
             "observations": "Es un proyecto desarrollado para un cliente real y en combinacion con el equipo",
             "tecnologies": [
                 {
