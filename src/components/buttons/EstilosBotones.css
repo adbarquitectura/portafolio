@@ -1,0 +1,62 @@
+.btnPrimary {
+    background-color: #F03700;
+    color: white;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    min-height: 45px;
+    min-width: 200px;
+    border: none;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnPrimary:hover {
+    background-color: #003D5D;
+    color: white;
+}
+
+.btnPrimary:active {
+    background-color: transparent;
+    color: #F03700;
+    border: 2px solid #F03700;
+}
+
+.btnPrimary a:link, .btnGeneral a:visited, .btnGeneral a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.btnPrimary.active a {
+    color: #FD4C00 !important;
+}
+
+.btnSecundary {
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    min-height: 45px;
+    min-width: 200px;
+    border: 2px solid #4B85AD;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnSecundary:hover {
+    background-color: #4B85AD;
+    color: white;
+    border: none;
+}
+
+.btnSecundary:active {
+    background-color: transparent;
+    color: #4B85AD;
+    border: 2px solid #4B85AD;
+    
+}

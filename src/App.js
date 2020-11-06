@@ -1,9 +1,36 @@
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import HomeView from './views/HomeView';
+import ProjectsView from './views/ProjectsView'
+
 import logo from './assets/images/logos/Logo.png';
 import './App.css';
 import dataProjects from './Data-proyectos';
 
 function App() {
-  const projects = dataProjects.proyectos;
+return(
+<Router>
+
+<Switch>      
+  <Route path="/projects">
+    <ProjectsView />
+  </Route>
+  <Route path="/">
+    <HomeView />
+  </Route>
+</Switch>
+
+</Router>
+
+)
+  
+
+  /* const projects = dataProjects.proyectos;
   console.log(projects);
   return (
     <div className="father-container">
@@ -30,7 +57,7 @@ function App() {
       }
       <img src={logo} alt="" />
     </div>
-  );
+  ); */
 }
 
 export default App;
