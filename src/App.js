@@ -14,6 +14,7 @@ import dataProjects from './Data-proyectos';
 
 function App() {
 return(
+<div className="father-container">
 <Router>
 
 <Switch>      
@@ -26,6 +27,8 @@ return(
 </Switch>
 
 </Router>
+
+</div>
 
 )
   

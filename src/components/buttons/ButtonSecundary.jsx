@@ -7,6 +7,7 @@ const ButtonSecundary = (props) => {
     <button className="btnSecundary"
       onClick={props.funcion}
     >
+      <img src={props.imgsrc} alt='' />
       {props.contenidobtn}
     </button>
   );

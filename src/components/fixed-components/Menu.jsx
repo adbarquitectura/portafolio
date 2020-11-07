@@ -1,13 +1,12 @@
 import React from 'react';
 import ButtonPrimary from '../buttons/ButtonPrimary';
 import ButtonSecundary from '../buttons/ButtonSecundary';
-
-
+import whatsapp from '../../assets/icons/whatsapp.png';
 
 const Menu = () => {
     return (
         <div className="box-menu">
-            
+
             <ButtonPrimary
                 contenidobtn='+'
             />
@@ -21,6 +20,7 @@ const Menu = () => {
             <div className="box-contacto-section not-visible">
                 <p>Puedes contactarme aquí.</p>
                 <ButtonSecundary
+                    imgsrc={whatsapp}
                     contenidobtn=' +56 9 52411777'
                 />
                 <ButtonPrimary
