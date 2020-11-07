@@ -5,7 +5,7 @@ import './EstilosBotones.css';
 const ButtonPrimaryLink = (props) => {
     return (
         <button
-            className="btnSecundary"
+            className="btnPrimary"
         >
             <img src={props.imgsrc} alt='' />
             <a

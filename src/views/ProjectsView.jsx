@@ -3,9 +3,11 @@ import './ProjectsView.css';
 import dataProjects from '../Data-proyectos';
 import ButtonSecundaryLink from '../components/buttons/ButtonSecundaryLink';
 
+
 const ProjectsView = () => {
     const projects = dataProjects.proyectos;
     return (
+        
         <div className="box-projects">
             <h2>proyectos</h2>
             <div className="box-cards-projects">
@@ -13,7 +15,7 @@ const ProjectsView = () => {
                     projects.map((project, index) => {
                         return (
                             <div key={index} className="box-cards-single">
-                                <img src={project.img} alt="" />
+                                <img src={project.img}  alt="" />
                                 <h4>{project.name}</h4>
                                 <p>{project.description}</p>
                                 <div className="box-cards-tecnologies">
@@ -29,7 +31,7 @@ const ProjectsView = () => {
                                 <ButtonSecundaryLink
                                     anclaLinkTo= {project.url}
                                     contenidobtn=' Ir a la App'
-                                />
+                                />                                
                             </div>
 
                         )
