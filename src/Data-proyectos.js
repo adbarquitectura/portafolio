@@ -37,7 +37,7 @@ export default{
             "name": "Burger Song",
             "description": "Aplicación desarrollada para registrar y gestionar pedidos de clientes de un restaurante, inspirada en una temática personalizada para cada usuario, que permite almacenar y controlar los pedidos en todo el proceso.",            
             "repository":"https://github.com/adbarquitectura/burger-queen.git",
-            "url": "https://burgersong.on.fleek.co/waiter",
+            "url": "https://burgersong.on.fleek.co/",
             "img": "./assets/images/data-projects/projComida.png",
             "observations": "Permite al usurio personalizar su pedido.",
             "tecnologies": [

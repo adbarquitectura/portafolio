@@ -24,7 +24,7 @@
     border: 2px solid #F03700;
 }
 
-.btnPrimary a:link, .btnGeneral a:visited, .btnGeneral a:active {
+.btnPrimary a:link, .btnPrimary a:visited, .btnPrimary a:active {
     text-decoration: none;
     color: white;
 }
@@ -59,4 +59,9 @@
     color: #4B85AD;
     border: 2px solid #4B85AD;
     
+}
+
+.btnSecundary a:link, .btnSecundary a:visited, .btnSecundary a:active {
+    text-decoration: none;
+    color: white;
 }

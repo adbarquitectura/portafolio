@@ -4,13 +4,12 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import './App.css';
 
 import HomeView from './views/HomeView';
 import ProjectsView from './views/ProjectsView'
 
 import logo from './assets/images/logos/Logo.png';
-import './App.css';
-import dataProjects from './Data-proyectos';
 
 function App() {
 return(

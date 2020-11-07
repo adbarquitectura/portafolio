@@ -1,0 +1,39 @@
+.box-projects {
+    background-color: #003D5D;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.box-cards-projects {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.box-cards-projects p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-cards-projects button {
+    margin-top: 15px;
+}
+
+.box-cards-single {
+    background-color: #021130;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px 0px 50px 50px;
+    padding: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;    
+    min-height: 350px;
+}
+
+.box-cards-tecnologies {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
