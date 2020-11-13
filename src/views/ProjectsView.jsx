@@ -1,21 +1,37 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './ProjectsView.css';
-import dataProjects from '../Data-proyectos';
+//import dataProjects from '../../public/Data-proyectos.js';
 import ButtonSecundaryLink from '../components/buttons/ButtonSecundaryLink';
 
-
 const ProjectsView = () => {
-    const projects = dataProjects.proyectos;
+
+    const [dataProject, setDataProject] = useState([]);
+
+    const getDataProject = () => {
+        fetch('Data-proyectos.json')
+            .then(response => response.json())
+            .then(data => setDataProject(data));
+    };
+
+    //const projects = dataProjects.proyectos;
+
+    useEffect(() => {
+        getDataProject();
+    }, []);
+
     return (
-        
+
         <div className="box-projects">
             <h2>proyectos</h2>
             <div className="box-cards-projects">
                 {
-                    projects.map((project, index) => {
+                    dataProject.map((project, index) => {
                         return (
                             <div key={index} className="box-cards-single">
-                                <img src={project.img}  alt="" />
+                                <div className="box-img-card">
+                                    <img src={project.img} alt={project.name} />
+                                </div>
+
                                 <h4>{project.name}</h4>
                                 <p>{project.description}</p>
                                 <div className="box-cards-tecnologies">
@@ -29,9 +45,9 @@ const ProjectsView = () => {
                                     })}
                                 </div>
                                 <ButtonSecundaryLink
-                                    anclaLinkTo= {project.url}
+                                    anclaLinkTo={project.url}
                                     contenidobtn=' Ir a la App'
-                                />                                
+                                />
                             </div>
 
                         )

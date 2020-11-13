@@ -31,7 +31,7 @@
     min-height: 350px;
 }
 
-.box-cards-single:nth-child(even){
+.box-cards-single:nth-child(even) {
     background-color: #021130;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 50px 50px 50px;
@@ -39,6 +39,16 @@
     margin-top: 35px;
     margin-bottom: 35px;
     min-height: 350px;
+}
+
+.box-img-card {
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.box-img-card img{
+    width: 90%;
+    object-fit: cover;
 }
 
 .box-cards-tecnologies {
