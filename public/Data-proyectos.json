@@ -10,23 +10,23 @@
         "tecnologies": [
             {
                 "nameTecnology": "JavaScript",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/JavaS.png"
             },
             {
                 "nameTecnology": "React",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/React.png"
             },
             {
                 "nameTecnology": "Firebase",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/Firebase.png"
             },
             {
                 "nameTecnology": "Bootstrap",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/bootstrap.png"
             },
             {
                 "nameTecnology": "Desktop",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/desktop.png"
             }
         ]            
     },
@@ -41,19 +41,19 @@
         "tecnologies": [
             {
                 "nameTecnology": "JavaScript",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/JavaS.png"
             },
             {
                 "nameTecnology": "React",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/React.png"
             },
             {
                 "nameTecnology": "Firebase",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/Firebase.png"
             },
             {
                 "nameTecnology": "Tablet",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/tableticon.png"
             }
         ]            
     },
@@ -68,15 +68,15 @@
         "tecnologies": [
             {
                 "nameTecnology": "JavaScript",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/JavaS.png"
             },                
             {
                 "nameTecnology": "Firebase",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/Firebase.png"
             },
             {
                 "nameTecnology": "Responsive",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/Responsive.png"
             }
         ]            
     },
@@ -91,11 +91,11 @@
         "tecnologies": [
             {
                 "nameTecnology": "JavaScript",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/JavaS.png"
             },                
             {
                 "nameTecnology": "Responsive",
-                "icon": "./assets/images/logos/Logo.png"
+                "icon": "./images/data-icon/Responsive.png"
             }
         ]            
     }

@@ -74,3 +74,35 @@
     font-family: 'Assistant';
     font-weight: 600;
 }
+
+.btnText {
+    background-color: transparent;
+    color: #E97451;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    min-width: 200px;
+    border: none;
+    font-family: 'Assistant';
+    font-size:20px;
+    font-weight: 200;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+
+.btnText:hover {   
+    color: white;
+}
+
+.btnText:active {
+    border: none;
+    background-color: transparent;
+    color: #4B85AD;
+}
+
+.btnText a:link, .btnText a:visited, .btnText a:active {
+    border: none;
+    text-decoration: none;
+    color: white;
+}

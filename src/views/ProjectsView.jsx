@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './ProjectsView.css';
 //import dataProjects from '../../public/Data-proyectos.js';
 import ButtonSecundaryLink from '../components/buttons/ButtonSecundaryLink';
+import ButtonText from '../components/buttons/ButtonText';
 
 const ProjectsView = () => {
 
@@ -31,14 +32,15 @@ const ProjectsView = () => {
                                 <div className="box-img-card">
                                     <img src={project.img} alt={project.name} />
                                 </div>
-
-                                <h4>{project.name}</h4>
+                                <ButtonText
+                                    contenidobtn={project.name}
+                                />
                                 <p>{project.description}</p>
                                 <div className="box-cards-tecnologies">
                                     {project.tecnologies.map((tecnology, indx) => {
                                         return (
-                                            <div key={indx} >
-                                                {tecnology.nameTecnology}
+                                            <div key={indx} className="box-img-icon">
+                                                <img src={tecnology.icon} alt={tecnology.nameTecnology} />
                                             </div>
                                         )
 
