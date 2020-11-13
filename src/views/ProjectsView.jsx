@@ -1,20 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import './ProjectsView.css';
-//import dataProjects from '../../public/Data-proyectos.js';
 import ButtonSecundaryLink from '../components/buttons/ButtonSecundaryLink';
-import ButtonText from '../components/buttons/ButtonText';
+import  TextDescriptionItem from '../components/dinamic-components/TextDescriptionItem';
 
 const ProjectsView = () => {
 
     const [dataProject, setDataProject] = useState([]);
-
+  
     const getDataProject = () => {
         fetch('Data-proyectos.json')
             .then(response => response.json())
             .then(data => setDataProject(data));
     };
-
-    //const projects = dataProjects.proyectos;
 
     useEffect(() => {
         getDataProject();
@@ -32,10 +29,12 @@ const ProjectsView = () => {
                                 <div className="box-img-card">
                                     <img src={project.img} alt={project.name} />
                                 </div>
-                                <ButtonText
-                                    contenidobtn={project.name}
+
+                                <TextDescriptionItem
+                                    nameProject={project.name}
+                                    descriptionProject={project.description}
                                 />
-                                <p>{project.description}</p>
+                     
                                 <div className="box-cards-tecnologies">
                                     {project.tecnologies.map((tecnology, indx) => {
                                         return (
