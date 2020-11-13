@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../../views/ProjectsView.css';
 import ButtonText from '../buttons/ButtonText';
+import buttonPlus from '../../assets/icons/botonplusblue.png';
 
 const TextDescriptionItem = (props) => {
     const [styleBoxText, setStyleBoxText] = useState({ display: 'none' })
@@ -22,6 +23,8 @@ const TextDescriptionItem = (props) => {
             <ButtonText
                 contenidobtn={props.nameProject}
                 funcion={showText}
+                imgsrc={buttonPlus}
+                
             />
             <div style={styleBoxText} >
                 <p>{props.descriptionProject}</p>

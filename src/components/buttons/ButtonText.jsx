@@ -8,6 +8,7 @@ const ButtonText = (props) => {
       onClick={props.funcion}
     >
       {props.contenidobtn}
+      <img src={props.imgsrc} alt='' />
     </button>
   );
 };
