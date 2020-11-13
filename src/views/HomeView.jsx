@@ -1,8 +1,7 @@
 import React from 'react';
 import './HomeView.css';
-import ButtonPrimary from '../components/buttons/ButtonPrimary';
-import ButtonSecundary from '../components/buttons/ButtonSecundary';
 import NetworksSection from '../components/fixed-components/NetworksSection';
+import Menu from '../components/fixed-components/Menu';
 import TitleMain from '../components/headers/TitleMain';
 import nexticon from '../assets/icons/nexticon.png';
 import ProjectsView from './ProjectsView';
@@ -13,6 +12,7 @@ const HomeView = () => {
             <NetworksSection />
             <div className="box-home-content">
                 <TitleMain />
+                <h2>|amanda diaz|</h2>
                 <p>
                     “En las soluciones tecnológicas  fusiono mis conocimientos
                     en el área de programación, diseño y administración, generando
@@ -24,7 +24,7 @@ const HomeView = () => {
             </div>
 
             <ProjectsView />
-
+            <Menu />
         </div>
     )
 }

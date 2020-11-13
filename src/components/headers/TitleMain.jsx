@@ -10,8 +10,7 @@ const TitleMain = (props) => {
       </div>
       
       <h1 className="h-orange">end</h1>
-      <h2>developer</h2>
-
+      <h2>developer</h2>      
     </div>
   );
 };

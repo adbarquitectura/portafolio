@@ -1,9 +1,10 @@
 .box-home-main {
-    background-color: #021130;    
+    background-color: transparent; 
 }
 .box-home-content{
     padding-top: 120px;
     /*superior*/
     padding-left: 30px;
-    padding-right: 30px
+    padding-right: 30px;
+    background-color: #021130; 
 }

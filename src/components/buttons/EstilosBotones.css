@@ -115,3 +115,42 @@
     height: 20px;    
     margin: 10px 0px -4px 10px;
 }
+.btnCircle {
+    background-color: #F03700;
+    color: white;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    min-height: 60px;
+    min-width: 60px;
+    border: none;
+    border-radius: 45px;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    margin-top: -50%;
+    font-family: 'Bebas Neue';
+}
+
+.btnCircle:hover {
+    background-color: #003D5D;
+    color: white;
+}
+
+.btnCircle:active {
+    background-color: transparent;
+    color: #F03700;
+    border: 2px solid #F03700;
+}
+
+.btnCircle a:link, .btnCircle a:visited, .btnCircle a:active {
+    text-decoration: none;
+    color: white;
+    font-family: 'Assistant';
+    font-weight: 600;
+}
+
+.btnCircle.active a {
+    color: #FD4C00 !important;
+}
