@@ -84,16 +84,19 @@
     min-width: 200px;
     border: none;
     font-family: 'Assistant';
-    font-size:20px;
+    font-size: 20px;
     font-weight: 200;
-    text-align: center;
-    padding-left: 20px;
+    text-align: left;
+    /* padding-left: 20px; */
     padding-right: 20px;
- 
+    cursor: pointer;
+    /* font-family: 'Bebas Neue';
+    letter-spacing: 5px;
+    font-size: 18px; */
 }
 
-.btnText:hover {   
-    color: white;
+.btnText:hover {
+    color: #4B85AD;
 }
 
 .btnText:active {
