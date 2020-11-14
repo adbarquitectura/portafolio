@@ -20,8 +20,9 @@ import ContactView from '../../views/ContactView';
 const Menu = (props) => {
     const [textButtonCircle, setTextButtonCircle] = useState('+')
     const [colorMenu, setColorMenu] = useState({ backgroundColor: '#021130' })
-    const [showMenu, setShowMenu,] = useState({ display: 'none' })
-    const [showContact, setShowContact,] = useState({ display: 'none' })
+    const [showMenu, setShowMenu] = useState({ display: 'none' })
+    const [showContact, setShowContact] = useState({ display: 'none' })
+    const [liActive, setLiActive] = useState({ color: '#F03700', fontSize: '22px', fontWeight: '900'})
 
     const showMenuList = () => {
         setColorMenu({ backgroundColor: '#003D5D' });
@@ -30,7 +31,8 @@ const Menu = (props) => {
     };
 
     const hideMenuList = () => {
-        setColorMenu({backgroundColor: '#021130'});
+        setColorMenu({ backgroundColor: '#021130' });
+        setLiActive({ backgroundColor: '#fffff', fontSize: '20px', fontWeight: '400' });
         setTextButtonCircle('+');
         setShowMenu({ display: 'none' });
         setShowContact({ display: 'none' });
@@ -38,6 +40,7 @@ const Menu = (props) => {
 
     const showMenuContact = () => {
         setShowContact({ display: 'block' });
+        setLiActive({ backgroundColor: '#fffff', fontSize: '20px', fontWeight: '400' });
     }
 
     return (
@@ -66,10 +69,13 @@ const Menu = (props) => {
 
                 <div style={showMenu} className="box-menu-dropdown">
                     <ul>
-                        <li onClick={hideMenuList}><Link to={props.linkToFirst}>{props.liFirstText}</Link></li>
+                        <li onClick={hideMenuList}><Link to={props.linkToFirst} style={liActive}>{props.liFirstText}</Link></li>
                         <li onClick={hideMenuList}><Link to={props.linkToSecond}>{props.liSecondText}</Link></li>
                         <li onClick={showMenuContact}><Link to={props.linkToThird}>{props.liThirdText}</Link></li>
                     </ul>
+
+                </div>
+                <div style={showContact} className="box-menu-list-extra">
 
                 </div>
 

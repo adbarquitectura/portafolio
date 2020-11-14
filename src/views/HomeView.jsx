@@ -10,10 +10,10 @@ const HomeView = () => {
             <NetworksSection />
 
             <Menu
-                linkToFirst='/about'
-                liFirstText='Acerca de mí'
-                linkToSecond='/'
-                liSecondText='Proyectos'
+                linkToFirst='/'
+                liFirstText='Proyectos'
+                linkToSecond='/about'
+                liSecondText='Acerca de mí'
                 linkToThird='/contact'
                 liThirdText='Contacto'
             />

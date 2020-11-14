@@ -16,6 +16,10 @@
     height: 120px;
 }
 
+.box-menu-list-extra{
+    height: 150px;
+    background-color: #003D5D;
+}
 .box-contacto-section-not-visible {
     background-color: #021130;
     border-radius: 50px 50px 0px 0px;
@@ -47,7 +51,7 @@ ul {
 
 .box-menu-dropdown li a:hover, .box-menu-dropdown li a:focus, .box-menu-dropdown li a:active {
     color: #F03700;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 900;
     line-height: 35px;
 } 
