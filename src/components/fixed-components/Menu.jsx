@@ -1,16 +1,24 @@
 import React, { useState } from 'react';
-import './Menu.css';
-import ButtonPrimary from '../buttons/ButtonPrimary';
-import ButtonSecundary from '../buttons/ButtonSecundary';
-import ButtonCircle from '../buttons/ButtonCircle';
-import whatsapp from '../../assets/icons/whatsapp.png';
-import ButtonText from '../buttons/ButtonText';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from 'react-router-dom';
 
-const Menu = () => {
+import './Menu.css';
+import ButtonCircle from '../buttons/ButtonCircle';
+import ContactModule from './ContactModule';
+import PresentationHome from '../dinamic-components/PresentationHome';
+import ProjectsView from '../../views/ProjectsView';
+import AboutView from '../../views/AboutView';
+
+
+const Menu = (props) => {
     const [textButtonCircle, setTextButtonCircle] = useState('+')
     const [colorMenu, setColorMenu] = useState({ backgroundColor: '#021130' })
     const [showMenu, setShowMenu,] = useState({ display: 'none' })
-    const [showContact, setShowContact,] = useState({ display: 'none' })
+    //const [showContact, setShowContact,] = useState({ display: 'none' })
 
     const showMenuList = () => {
         setColorMenu({ backgroundColor: 'red' });
@@ -19,39 +27,49 @@ const Menu = () => {
         setShowMenu({ display: 'block' });
     };
 
-    const showMenuContact = () => {
+    /* const showMenuContact = () => {
         setShowContact({ display: 'block' });
-    }
+    } */
 
     return (
-        <div style={colorMenu} className="box-menu">
+        <Router>
+            <Switch>
+                <Route exact path='/'>
+                    <PresentationHome />
+                    <ProjectsView />
+                </Route>
+                <Route path='/about'>
+                    <AboutView />
+                </Route>
+            </Switch>
 
-            <div style={colorMenu} className="box-menu-button">
-                <ButtonCircle
-                    contenidobtn={textButtonCircle}
-                    funcion={showMenuList}
-                />
+            <div style={colorMenu} className="box-menu">
+
+                <div style={colorMenu} className="box-menu-button">
+                    <ButtonCircle
+                        contenidobtn={textButtonCircle}
+                        funcion={showMenuList}
+                    />
+                </div>
+
+                <div style={showMenu} className="box-menu-dropdown">
+                    <ul>
+                        <li><Link to={props.linkToFirst}>{props.liFirstText}</Link></li>
+                        <li><Link to={props.linkToSecond}>{props.liSecondText}</Link></li>
+                        <li><Link to={props.linkToThird}>{props.liThirdText}</Link></li>
+                    </ul>
+
+                </div>
+
             </div>
 
-            <div style={showMenu} className="box-menu-dropdown">
-                <ul>
-                    <li>Acerca de mí</li>
-                    <li>Proyectos</li>
-                    <li>Contacto</li>
-                </ul>
-                
-            </div>
-            <div style={showContact} className="box-contacto-section-not-visible">
-                <p>Puedes contactarme aquí.</p>
-                <ButtonSecundary
-                    imgsrc={whatsapp}
-                    contenidobtn=' +56 9 52411777'
-                />
-                <ButtonPrimary
-                    contenidobtn=' Escríbeme'
-                />
-            </div>
-        </div>
+            <Switch>
+                <Route path='/contact'>
+                    <ContactModule />
+                </Route>
+            </Switch>
+        </Router>
+
     );
 };
 
