@@ -24,8 +24,7 @@ const Menu = (props) => {
     const [showContact, setShowContact,] = useState({ display: 'none' })
 
     const showMenuList = () => {
-        setColorMenu({ backgroundColor: 'red' });
-        //setColorMenu({backgroundColor: '#003D5D'});
+        setColorMenu({ backgroundColor: '#003D5D' });
         setTextButtonCircle('-');
         setShowMenu({ display: 'block' });
     };
