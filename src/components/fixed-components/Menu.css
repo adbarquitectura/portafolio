@@ -1,16 +1,15 @@
 .box-menu{
-    
+    border-radius: 50px 50px 0px 0px;
 }
-.box-menu-button{
-    background-color: tomato;
+.box-menu-button{   
     height: 50px;
-    border-radius: 50px 50px 00px 0px;
+    border-radius: 50px 50px 0px 0px;
     position: relative;
     margin-top: -50px;
 }
 .box-contacto-section-not-visible{
     background-color: #021130;
-    border-radius: 50px 50px 00px 0px;
+    border-radius: 50px 50px 0px 0px;
     padding-top: 30px;
     padding-bottom: 15px;
 }
