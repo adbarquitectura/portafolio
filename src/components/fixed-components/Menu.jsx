@@ -8,17 +8,20 @@ import {
 
 import './Menu.css';
 import ButtonCircle from '../buttons/ButtonCircle';
-import ContactModule from './ContactModule';
 import PresentationHome from '../dinamic-components/PresentationHome';
 import ProjectsView from '../../views/ProjectsView';
 import AboutView from '../../views/AboutView';
-
+/* import ButtonPrimary from '../buttons/ButtonPrimary';
+import ButtonSecundary from '../buttons/ButtonSecundary';
+import whatsapp from '../../assets/icons/whatsapp.png'; */
+import ContactModule from './ContactModule';
+import ContactView from '../../views/ContactView';
 
 const Menu = (props) => {
     const [textButtonCircle, setTextButtonCircle] = useState('+')
     const [colorMenu, setColorMenu] = useState({ backgroundColor: '#021130' })
     const [showMenu, setShowMenu,] = useState({ display: 'none' })
-    //const [showContact, setShowContact,] = useState({ display: 'none' })
+    const [showContact, setShowContact,] = useState({ display: 'none' })
 
     const showMenuList = () => {
         setColorMenu({ backgroundColor: 'red' });
@@ -27,9 +30,16 @@ const Menu = (props) => {
         setShowMenu({ display: 'block' });
     };
 
-    /* const showMenuContact = () => {
+    const hideMenuList = () => {
+        setColorMenu({backgroundColor: '#021130'});
+        setTextButtonCircle('+');
+        setShowMenu({ display: 'none' });
+        setShowContact({ display: 'none' });
+    };
+
+    const showMenuContact = () => {
         setShowContact({ display: 'block' });
-    } */
+    }
 
     return (
         <Router>
@@ -40,6 +50,9 @@ const Menu = (props) => {
                 </Route>
                 <Route path='/about'>
                     <AboutView />
+                </Route>
+                <Route path='/contact'>
+                    <ContactView />
                 </Route>
             </Switch>
 
@@ -54,20 +67,18 @@ const Menu = (props) => {
 
                 <div style={showMenu} className="box-menu-dropdown">
                     <ul>
-                        <li><Link to={props.linkToFirst}>{props.liFirstText}</Link></li>
-                        <li><Link to={props.linkToSecond}>{props.liSecondText}</Link></li>
-                        <li><Link to={props.linkToThird}>{props.liThirdText}</Link></li>
+                        <li onClick={hideMenuList}><Link to={props.linkToFirst}>{props.liFirstText}</Link></li>
+                        <li onClick={hideMenuList}><Link to={props.linkToSecond}>{props.liSecondText}</Link></li>
+                        <li onClick={showMenuContact}><Link to={props.linkToThird}>{props.liThirdText}</Link></li>
                     </ul>
 
                 </div>
 
             </div>
+            <ContactModule
+                visible={showContact}
+            />
 
-            <Switch>
-                <Route path='/contact'>
-                    <ContactModule />
-                </Route>
-            </Switch>
         </Router>
 
     );

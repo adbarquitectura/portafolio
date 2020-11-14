@@ -5,10 +5,10 @@ import ButtonSecundary from '../buttons/ButtonSecundary';
 import whatsapp from '../../assets/icons/whatsapp.png';
 
 
-const ContactModule = () => {
+const ContactModule = (props) => {
     return (
 
-        <div className="box-contacto-section-not-visible">
+        <div  style={props.visible}className="box-contacto-section-not-visible">
             <p>Puedes contactarme aquí.</p>
             <ButtonSecundary
                 imgsrc={whatsapp}
@@ -22,4 +22,4 @@ const ContactModule = () => {
     );
 };
 
-export default ContactModule;
+export default ContactModule; 

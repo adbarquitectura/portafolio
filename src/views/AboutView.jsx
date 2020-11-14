@@ -1,8 +1,10 @@
 import React from 'react';
+import './AboutView.css';
 
 const AboutView = ()=>{
     return(
-        <div> estoy en acerca
+        <div className="box-about"> 
+        estoy en acerca
         </div>
     )
 }
