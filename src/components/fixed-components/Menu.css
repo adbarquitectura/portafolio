@@ -3,6 +3,7 @@
     margin-bottom: 0;
     z-index: 1000;
     filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.25));
+    background-color: #003D5D;
 }
 
 .box-menu-button {

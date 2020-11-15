@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -19,19 +19,19 @@ import ContactView from '../../views/ContactView';
 
 const Menu = (props) => {
     const [textButtonCircle, setTextButtonCircle] = useState('+')
-    const [colorMenu, setColorMenu] = useState({ backgroundColor: '#021130' })
+    //const [colorMenu, setColorMenu] = useState({ backgroundColor: '#021130' })
     const [showMenu, setShowMenu] = useState({ display: 'none' })
     const [showContact, setShowContact] = useState({ display: 'none' })
-    const [liActive, setLiActive] = useState({ color: '#F03700', fontSize: '22px', fontWeight: '900'})
+    const [liActive, setLiActive] = useState({ color: '#F03700', fontSize: '22px', fontWeight: '900' })
 
-    const showMenuList = () => {
-        setColorMenu({ backgroundColor: '#003D5D' });
+    const showMenuList = () => {      
+        //setColorMenu({ backgroundColor: '#003D5D'});
         setTextButtonCircle('-');
         setShowMenu({ display: 'block' });
     };
 
     const hideMenuList = () => {
-        setColorMenu({ backgroundColor: '#021130' });
+        //setColorMenu({ backgroundColor: '#021130' });
         setLiActive({ backgroundColor: '#fffff', fontSize: '20px', fontWeight: '400' });
         setTextButtonCircle('+');
         setShowMenu({ display: 'none' });
@@ -58,9 +58,9 @@ const Menu = (props) => {
                 </Route>
             </Switch>
 
-            <div style={colorMenu} className="box-menu">
+            <div className="box-menu">
 
-                <div style={colorMenu} className="box-menu-button">
+                <div className="box-menu-button">
                     <ButtonCircle
                         contenidobtn={textButtonCircle}
                         funcion={showMenuList}

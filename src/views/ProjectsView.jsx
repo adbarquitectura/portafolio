@@ -26,14 +26,16 @@ const ProjectsView = () => {
                     dataProject.map((project, index) => {
                         return (
                             <div key={index} className="box-cards-single">
-                                <div className="box-img-card">
-                                    <img src={project.img} alt={project.name} />
-                                </div>
-
+                                
                                 <TextDescriptionItem
                                     nameProject={project.name}
                                     descriptionProject={project.description}
                                 />
+                               
+                                <div className="box-img-card">
+                                    <img src={project.img} alt={project.name} />
+                                </div>
+                             
                      
                                 <div className="box-cards-tecnologies">
                                     {project.tecnologies.map((tecnology, indx) => {
@@ -49,6 +51,7 @@ const ProjectsView = () => {
                                     anclaLinkTo={project.url}
                                     contenidobtn=' Ir a la App'
                                 />
+                                
                             </div>
 
                         )
