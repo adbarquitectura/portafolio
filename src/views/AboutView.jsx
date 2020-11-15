@@ -4,6 +4,7 @@ import './AboutView.css';
 import photo from '../assets/images/foto.jpg';
 import nexticon2 from '../assets/icons/nexticon2.png';
 import CvSection from '../components/dinamic-components/CvSection';
+import Skills from '../components/dinamic-components/Skills';
 
 const AboutView = () => {
     return (
@@ -36,6 +37,8 @@ const AboutView = () => {
                 y cursar dos estudios universitarios simultáneamente han sido mis
                 mayores restos.</p>
 
+            <Skills />
+
             <div className="box-about-interes">
                 <h2 id="intereses" className="box-about-h2">intereses</h2>
                 <ul>
@@ -45,6 +48,11 @@ const AboutView = () => {
                     <li>Inteligencia artificial</li>
                     <li>Diseño responsable.</li>
                 </ul>
+            </div>
+
+            <div>
+
+
             </div>
 
         </div>

@@ -19,6 +19,8 @@
     margin-bottom: 15px;
 }
 
+/* CvSection*/
+
 .box-cv-content {
     background-color: #003D5D;
     border-radius: 50px 0px 50px 50px;
@@ -53,4 +55,18 @@
     padding: 3px;
     font-weight: 100;
     font-size: 18px;
+}
+
+/* Skills section*/
+
+.box-skills {
+    background-color: #003D5D;
+    border-radius: 50px 0px 50px 50px;
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.box-img-skill img {
+    width: 100px;
 }
