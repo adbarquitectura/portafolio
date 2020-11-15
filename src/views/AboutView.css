@@ -1,4 +1,22 @@
-.box-about{
-    background-color: green;
-    height: 800px;
+.box-about {
+    padding-top: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.box-tag {
+    display: block;
+    width: 100%;
+}
+
+.box-img-about img {
+    mix-blend-mode: luminosity;
+    border-radius: 150px;
+    filter: grayscale(100%);
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }

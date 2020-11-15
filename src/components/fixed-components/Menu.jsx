@@ -11,19 +11,16 @@ import ButtonCircle from '../buttons/ButtonCircle';
 import PresentationHome from '../dinamic-components/PresentationHome';
 import ProjectsView from '../../views/ProjectsView';
 import AboutView from '../../views/AboutView';
-/* import ButtonPrimary from '../buttons/ButtonPrimary';
-import ButtonSecundary from '../buttons/ButtonSecundary';
-import whatsapp from '../../assets/icons/whatsapp.png'; */
 import ContactModule from './ContactModule';
 import ContactView from '../../views/ContactView';
 
 const Menu = (props) => {
-    const [textButtonCircle, setTextButtonCircle] = useState('+')
+    const [textButtonCircle, setTextButtonCircle] = useState('+');
     //const [colorMenu, setColorMenu] = useState({ backgroundColor: '#021130' })
-    const [showMenu, setShowMenu] = useState({ display: 'none' })
-    const [showContact, setShowContact] = useState({ display: 'none' })
-    const [liActive, setLiActive] = useState({ color: '#F03700', fontSize: '22px', fontWeight: '900' })
-
+    const [showMenu, setShowMenu] = useState({ display: 'none' });
+    const [showContact, setShowContact] = useState({ display: 'none' });
+    const [liActive, setLiActive] = useState({ color: '#F03700', fontSize: '22px', fontWeight: '900' });  
+    
     const showMenuList = () => {      
         //setColorMenu({ backgroundColor: '#003D5D'});
         setTextButtonCircle('-');
