@@ -3,6 +3,7 @@ import TitleAbout from '../components/headers/TitleAbout';
 import './AboutView.css';
 import photo from '../assets/images/foto.jpg';
 import nexticon2 from '../assets/icons/nexticon2.png';
+import CvSection from '../components/dinamic-components/CvSection';
 
 const AboutView = () => {
     return (
@@ -26,6 +27,25 @@ const AboutView = () => {
                 <img src={photo} alt='photo' />
             </div>
             <img src={nexticon2} alt='photo' />
+
+            <CvSection />
+
+            <p className="box-about-p">
+                Convertirme en desarrolladora front-end en 6 meses, liderar
+                importantes proyectos desde su nacimiento hasta su finalización
+                y cursar dos estudios universitarios simultáneamente han sido mis
+                mayores restos.</p>
+
+            <div className="box-about-interes">
+                <h2 id="intereses" className="box-about-h2">intereses</h2>
+                <ul>
+                    <li>Innovación tecnológica</li>
+                    <li>Desarrollo web</li>
+                    <li>Diseño de interfaz</li>
+                    <li>Inteligencia artificial</li>
+                    <li>Diseño responsable.</li>
+                </ul>
+            </div>
 
         </div>
     )
