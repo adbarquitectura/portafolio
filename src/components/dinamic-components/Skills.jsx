@@ -25,11 +25,10 @@ const Skills = () => {
                     dataSkills.map((tecnology, index) => {
                         return (
                             <div key={index} className="box">
-                                {tecnology.tecnologies.map(element => {
-                                    console.log(element.nameTecnology);
+                                {tecnology.tecnologies.map((element, ind)=> {                                   
                                     return (
 
-                                        <div className="box-img-skill">
+                                        <div className="box-img-skill" key={ind}>
                                             <img src={element.icon} alt={element.nameTecnology} />
                                             <p>{element.nameTecnology}</p>
                                         </div>

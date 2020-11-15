@@ -1,5 +1,5 @@
 .box-projects {
-    background: linear-gradient(360deg, #021130 0%, #003D5D 26.37%, #003D5D 87.4%, #021130 99.29%);
+    background: linear-gradient(360deg, #021130 0%, #003D5D 26.37%, #003D5D 87.4%, #021130 99.29%);   
     padding-top: 15px;
     padding-bottom: 65px;
     height: auto;
@@ -15,12 +15,12 @@
 .box-cards-projects p {
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #021130;
+    color: #4B85AD;
     text-align: start;
 }
 
 .box-cards-single:nth-child(odd) {
-    background-color: #bfd4e2;
+    background-color: #021130;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 50px 50px 50px;
     padding: 15px 15px 15px 35px;
@@ -44,6 +44,7 @@
     min-height: 300px;
     margin-left: 60px;
     text-align: center;
+    
 }
 
 .box-img-card {
@@ -63,7 +64,7 @@
     text-align: center;
     justify-content: center;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .box-img-icon img {
@@ -80,4 +81,5 @@
 
 .box-cards-single button{
     min-width: 160px;
+    border-color: #E97451;
 }
