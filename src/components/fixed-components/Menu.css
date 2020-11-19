@@ -1,6 +1,6 @@
 .box-menu {    
     /*background: #003D5D;*/
-    border-radius: 180px 50px 0px 0px;
+    border-radius: 180px 80px 0px 0px;
     margin-bottom: 0;
     z-index: 1000;
     position: relative;
@@ -27,7 +27,7 @@
 
 .box-contacto-section-not-visible {
     background-color: #021130;
-    border-radius: 50px 180px 0px 0px;
+    border-radius: 80px 180px 0px 0px;
     padding-top: 30px;
     padding-bottom: 15px;
     position: fixed;
