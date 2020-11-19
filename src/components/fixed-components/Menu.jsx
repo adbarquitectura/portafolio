@@ -16,22 +16,22 @@ import ContactView from '../../views/ContactView';
 
 const Menu = (props) => {
     const [textButtonCircle, setTextButtonCircle] = useState('+');
-    //const [colorMenu, setColorMenu] = useState({ backgroundColor: '#021130' })
+    const [colorMenu, setColorMenu] = useState({ backgroundColor: 'transparent' })
     const [showMenu, setShowMenu] = useState({ display: 'none' });
     const [showContact, setShowContact] = useState({ display: 'none' });
-    const [liActive, setLiActive] = useState({ color: '#F03700', fontSize: '22px', fontWeight: '900' });  
-    
-    const showMenuList = () => {      
-        //setColorMenu({ backgroundColor: '#003D5D'});
+    const [liActive, setLiActive] = useState({ color: '#F03700', fontSize: '22px', fontWeight: '900' });
+
+    const showMenuList = () => {
+        setColorMenu({ backgroundColor: '#003D5D'});
         setTextButtonCircle('-');
-        setShowMenu({ display: 'block' });
+        setShowMenu({ display: 'block'});
     };
 
     const hideMenuList = () => {
-        //setColorMenu({ backgroundColor: '#021130' });
+        setColorMenu({ backgroundColor: 'transparent' });
         setLiActive({ backgroundColor: '#fffff', fontSize: '20px', fontWeight: '400' });
         setTextButtonCircle('+');
-        setShowMenu({ display: 'none' });
+        setShowMenu({ display: 'none'});
         setShowContact({ display: 'none' });
     };
 
@@ -55,7 +55,9 @@ const Menu = (props) => {
                 </Route>
             </Switch>
 
-            <div className="box-menu">
+
+
+            <div style={colorMenu} className="box-menu">
 
                 <div className="box-menu-button">
                     <ButtonCircle

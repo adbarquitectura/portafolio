@@ -2,7 +2,7 @@ import React from 'react';
 import TitleAbout from '../components/headers/TitleAbout';
 import './AboutView.css';
 import photo from '../assets/images/foto.jpg';
-import nexticon2 from '../assets/icons/nexticon2.png';
+import nexticon2 from '../assets/icons/nexticon.png';
 import CvSection from '../components/dinamic-components/CvSection';
 import Skills from '../components/dinamic-components/Skills';
 

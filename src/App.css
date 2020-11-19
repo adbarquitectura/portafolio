@@ -2,7 +2,7 @@
   text-align: center;
   width: 100%;
   margin: 0;
-  /* background-color: #021130;  */ 
+  background: linear-gradient(180deg, #021130 34.18%, #003D5D 47.89%, #003D5D 79.43%, #021130 95.89%);
   box-sizing: border-box;
   overflow-y: hidden;
   overflow-x: hidden;

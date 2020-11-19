@@ -22,24 +22,25 @@
 /* CvSection*/
 
 .box-cv-content {
-    background-color: #003D5D;
-    border-radius: 50px 0px 50px 50px;
-    padding: 30px;
+    background: rgba(251, 253, 255, 0.7);
+    border-radius: 250px 0px 250px 250px;
+    padding: 30px 30px 80px 30px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
 .box-cv-content p {
     text-align: start;
+    color: #021130;
     font-weight: 100;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .box-about-p {
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #021130;
+    color: #ffffff;
     padding: 30px 50px 30px 50px;
 }
 
@@ -51,7 +52,7 @@
 }
 
 .box-about-interes li {
-    color: #021130;
+    color: #ffffff;
     padding: 3px;
     font-weight: 100;
     font-size: 18px;

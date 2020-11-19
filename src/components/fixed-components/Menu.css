@@ -1,14 +1,17 @@
-.box-menu {
-    border-radius: 50px 50px 0px 0px;
+.box-menu {    
+    /*background: #003D5D;*/
+    border-radius: 180px 50px 0px 0px;
     margin-bottom: 0;
     z-index: 1000;
-    filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.25));
-    background-color: #003D5D;
+    position: relative;
+    margin-top: -50px;
+    /* filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.25)); */
+    /* background-color: #003D5D; */
 }
 
 .box-menu-button {
-    height: 50px;
-    border-radius: 50px 50px 0px 0px;
+    height: 50px;    
+    /*border-radius: 50px 50px 0px 0px;*/
     position: relative;
     margin-top: -50px;
 }
@@ -17,18 +20,20 @@
     height: 120px;
 }
 
-.box-menu-list-extra{
-    height: 150px;
+.box-menu-list-extra {
+    height: 200px;
     background-color: #003D5D;
 }
+
 .box-contacto-section-not-visible {
     background-color: #021130;
-    border-radius: 50px 50px 0px 0px;
+    border-radius: 50px 180px 0px 0px;
     padding-top: 30px;
     padding-bottom: 15px;
     position: fixed;
     bottom: 0px;
     height: 250px;
+    z-index: 1000;
 }
 
 .box-contacto-section-not-visible button {
@@ -55,4 +60,4 @@ ul {
     font-size: 22px;
     font-weight: 900;
     line-height: 35px;
-} 
+}
