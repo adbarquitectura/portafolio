@@ -53,14 +53,14 @@
 }
 
 .box-cards-single:nth-child(odd) .box-cards-in-single {
-    background: rgba(233, 116, 81, 0.8);
+    background: rgba(233, 116, 81, 0.7);
     border-radius: 0px 200px 80px 150px;
     min-height: 250px;
     padding-bottom: 30px;
 }
 
 .box-cards-single:nth-child(even) .box-cards-in-single {
-    background: rgba(233, 116, 81, 0.8);
+    background: rgba(233, 116, 81, 0.7);
     border-radius: 200px 0px 150px 80px;
     min-height: 250px;
     padding-bottom: 30px;
