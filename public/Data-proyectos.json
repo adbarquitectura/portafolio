@@ -22,12 +22,12 @@
     {
         "id": 2,
         "name": "Comida para todos",
-        "description": "Propuesta de diseño de landing page para fundacion Comida para todos",            
+        "description": "Propuesta de diseño de landing page para cliente real.",            
         "repository":"https://github.com/adbarquitectura/SCL014-comida-para-todos.git",
         "imgback": "./images/data-projects/comidaparatodos2.jpg",
         "url": "https://comida-para-todos-page.web.app/",
         "img": "./images/data-projects/comidaparatodos.png",
-        "observations": "Es un proyecto desarrollado para un cliente real, orientado bajo de diseño UX.",
+        "observations": "",
         "tecnologies": [
             {
                 "nameTecnology": "JavaScript",
@@ -54,12 +54,12 @@
     {
         "id": 3,
         "name": "Burger Song",
-        "description": "Aplicación desarrollada para registrar y gestionar pedidos de clientes de un restaurante, inspirada en una temática personalizada para cada usuario, que permite almacenar y controlar los pedidos en todo el proceso.",            
+        "description": "Aplicación administra, registra y gestiona pedidos desde clientes a un restaurante. Permite el control de pedidos en real-time y es personalizable para cada usuario.",            
         "repository":"https://github.com/adbarquitectura/burger-queen.git",
         "imgback": "./images/data-projects/burgersong2.jpg",
         "url": "https://burgersong.on.fleek.co/",
         "img": "./images/data-projects/burgersong.png",
-        "observations": "Permite al usurio personalizar su pedido.",
+        "observations": "",
         "tecnologies": [
             {
                 "nameTecnology": "JavaScript",
@@ -82,12 +82,12 @@
     {
         "id": 4,
         "name": "Nómada",
-        "description": "Red social desarrollada para viajeros y aventureros, donde podrán compartir, comentar, editar, interactuar y almacenar sus experiencias de viaje y conectar con otros, fomentando la comunidad y el enriquecimiento cultural.",            
+        "description": "Red social desarrollada para viajeros, permite compartir, editar, interactuar, almacenar experiencias de viaje y conectar con otros, fomenta la comunidad y el enriquecimiento cultural. Permite control e integración de accesos con otras plataformas y muestra data en real-time.",            
         "repository":"https://github.com/adbarquitectura/SCL014-social-network.git",
         "imgback": "./images/data-projects/nomada2.jpg",
         "url": "https://naterayc.github.io/SCL014-social-network/#/",
         "img": "./images/data-projects/nomada.png",
-        "observations": "Permite al usurio personalizar su pedido.",
+        "observations": "",
         "tecnologies": [
             {
                 "nameTecnology": "JavaScript",
