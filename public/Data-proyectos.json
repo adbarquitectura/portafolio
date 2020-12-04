@@ -4,9 +4,9 @@
         "name": "Markdown Links",
         "description": "Librería desarrollada utilizando Node.js, lee y analiza archivos formato “Markdown”, verifica los links contenidos y entrega algunas estadísticas.",            
         "repository":"https://github.com/adbarquitectura/SCL014-md-links.git",
-        "imgback": "./images/data-projects/comidaparatodos.png",
+        "imgback": "./images/data-projects/md2.jpg",
         "url": "https://github.com/adbarquitectura/SCL014-md-links.git",
-        "img": "./images/data-projects/comidaparatodos.png",
+        "img": "./images/data-projects/md.png",
         "observations": "",
         "tecnologies": [
             {

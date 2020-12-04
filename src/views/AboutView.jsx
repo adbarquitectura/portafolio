@@ -1,10 +1,11 @@
 import React from 'react';
 import TitleAbout from '../components/headers/TitleAbout';
 import './AboutView.css';
-import photo from '../assets/images/foto.jpg';
+import photo from '../assets/images/foto.png';
 import nexticon2 from '../assets/icons/nexticon.png';
 import CvSection from '../components/dinamic-components/CvSection';
 import Skills from '../components/dinamic-components/Skills';
+import ButtonPrimary from '../components/buttons/ButtonPrimary';
 
 const AboutView = () => {
     return (
@@ -16,7 +17,7 @@ const AboutView = () => {
                     href='#habilidades'
                     rel='noopener noreferrer'
                 >Habilidades
-            </a>
+            </a><br></br>
                 <a
                     href='#intereses'
                     rel='noopener noreferrer'
@@ -24,12 +25,17 @@ const AboutView = () => {
             </a>
             </div>
 
-            <div className="box-img-about">
-                <img src={photo} alt='photo' />
-            </div>
+            <p className="box-about-p">
+                Siento pasión y compromiso por lo que hago, aprendo rápido,
+                siempre persistente, curiosa por aprender, analítica y estructurada.
+                Trabajo bien bajo presión, de forma colaborativa e inter- área.
+            </p>
+
             <img src={nexticon2} alt='photo' />
 
-            <CvSection />
+            <CvSection
+                photo={photo}
+            />
 
             <p className="box-about-p">
                 Convertirme en desarrolladora front-end en 6 meses, liderar
@@ -37,6 +43,9 @@ const AboutView = () => {
                 y cursar dos estudios universitarios simultáneamente han sido mis
                 mayores restos.</p>
 
+            <ButtonPrimary
+                contenidobtn='Currículum'
+            />
             <Skills />
 
             <div className="box-about-interes">

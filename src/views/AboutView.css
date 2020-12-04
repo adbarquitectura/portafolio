@@ -5,43 +5,61 @@
     box-sizing: border-box;
 }
 
+.box-tag a:link, .box-tag a:visited, .box-tag a:active {
+    color: white;
+    font-family: 'Assistant';
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 35px;
+}
+
 .box-tag {
     display: block;
     width: 100%;
 }
 
+/* CvSection*/
+
 .box-img-about img {
     mix-blend-mode: luminosity;
-    border-radius: 150px;
+    border-radius: 0px 0px 180px 180px;
     filter: grayscale(100%);
-    width: 55%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 110%;
+    position: relative;
+    margin-left: -15px;
+    margin-top: -40px;
 }
-
-/* CvSection*/
 
 .box-cv-content {
     background: rgba(251, 253, 255, 0.7);
     border-radius: 250px 0px 250px 250px;
-    padding: 30px 30px 80px 30px;
+    padding: 30px 30px 0px 30px;
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+box-cv-content button{
+    align-self: start;;
 }
 
 .box-cv-content p {
-    text-align: start;
-    color: #021130;
+    text-align: right;
+    color: #ffffff;
+    padding-right: 15px;
+    margin-bottom: 1px;
     font-weight: 100;
-    margin-bottom: 80px;
-    margin-top: 80px;
+    font-size: 20px;
+    padding-left: 30px;
 }
 
 .box-about-p {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 0px 30px 0px 30px;
+    font-size: 18px;
     color: #ffffff;
-    padding: 30px 50px 30px 50px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 25px;
 }
 
 .box-about-h2 {
