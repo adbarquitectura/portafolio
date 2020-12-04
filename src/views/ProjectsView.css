@@ -37,6 +37,12 @@
     /* border-right: 2.5px solid #4B85AD;
     border-top: 2.5px solid #4B85AD;
     border-bottom: 2.5px solid #4B85AD; */
+    /* mix-blend-mode: exclusion;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+    background-repeat: no-repeat;    
+    background-size: cover;
+    object-fit: cover;
+    background-blend-mode: lighten;
 }
 
 .box-cards-single:nth-child(even) {
@@ -50,18 +56,22 @@
     min-height: 250px;
     margin-left: 60px;
     text-align: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    object-fit: cover;
+    background-blend-mode: lighten;
 }
 
 .box-cards-single:nth-child(odd) .box-cards-in-single {
-    background: rgba(233, 116, 81, 0.7);
-    border-radius: 0px 200px 80px 150px;
+    background: rgba(233, 116, 81, 0.95);
+    border-radius: 0px 180px 50px 50px;
     min-height: 250px;
     padding-bottom: 30px;
 }
 
 .box-cards-single:nth-child(even) .box-cards-in-single {
-    background: rgba(233, 116, 81, 0.7);
-    border-radius: 200px 0px 150px 80px;
+    background: rgba(233, 116, 81, 0.95);
+    border-radius: 180px 0px 50px 50px;
     min-height: 250px;
     padding-bottom: 30px;
 }

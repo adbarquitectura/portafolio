@@ -14,13 +14,17 @@
                 "icon": "./images/data-skill/css.png"
             },
             {
+                "nameTecnology": "Node.js",
+                "icon": "./images/data-skill/node.png"
+            },
+            {
                 "nameTecnology": "React",
                 "icon": "./images/data-skill/react.png"
             },
             {
                 "nameTecnology": "Git",
                 "icon": "./images/data-skill/git.png"
-            },            
+            },
             {
                 "nameTecnology": "Figma",
                 "icon": "./images/data-skill/figma.png"
