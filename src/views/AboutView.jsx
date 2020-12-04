@@ -9,9 +9,9 @@ import Skills from '../components/dinamic-components/Skills';
 import ButtonPrimary from '../components/buttons/ButtonPrimary';
 
 const AboutView = () => {
-    const openFile = (path) => {
-        var file = path;
-        return window.open(file, "resizeable", "scrollbar");
+    const openFile = (pathFile) => {
+        var file = pathFile;
+        window.open(file, "resizeable", "scrollbar");
     };
 
     return (

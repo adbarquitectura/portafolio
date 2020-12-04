@@ -1,62 +1,58 @@
 [
     {
-        "tecnologies": [
-            {
-                "nameTecnology": "JavaScript Es6",
-                "icon": "./images/data-skill/java.png"
-            },
-            {
-                "nameTecnology": "Html 5",
-                "icon": "./images/data-skill/html.png"
-            },
-            {
-                "nameTecnology": "Css 3",
-                "icon": "./images/data-skill/css.png"
-            },
-            {
-                "nameTecnology": "Node.js",
-                "icon": "./images/data-skill/node.png"
-            },
-            {
-                "nameTecnology": "React",
-                "icon": "./images/data-skill/react.png"
-            },
-            {
-                "nameTecnology": "Git",
-                "icon": "./images/data-skill/git.png"
-            },
-            {
-                "nameTecnology": "Figma",
-                "icon": "./images/data-skill/figma.png"
-            },
-            {
-                "nameTecnology": "Ilustrator",
-                "icon": "./images/data-skill/ai.png"
-            },
-            {
-                "nameTecnology": "Photoshop",
-                "icon": "./images/data-skill/ps.png"
-            },
-            {
-                "nameTecnology": "Revit",
-                "icon": "./images/data-skill/revit.png"
-            },
-            {
-                "nameTecnology": "Navisworks",
-                "icon": "./images/data-skill/navis.png"
-            },
-            {
-                "nameTecnology": "Tekla Structures",
-                "icon": "./images/data-skill/tekla.png"
-            },
-            {
-                "nameTecnology": "AutoCAD",
-                "icon": "./images/data-skill/autocad.png"
-            },
-            {
-                "nameTecnology": "ArchiCad",
-                "icon": "./images/data-skill/archicad.png"
-            }
-        ]
+        "nameTecnology": "JavaScript Es6",
+        "icon": "./images/data-skill/java.png"
+    },
+    {
+        "nameTecnology": "Html 5",
+        "icon": "./images/data-skill/html.png"
+    },
+    {
+        "nameTecnology": "Css 3",
+        "icon": "./images/data-skill/css.png"
+    },
+    {
+        "nameTecnology": "Node.js",
+        "icon": "./images/data-skill/node.png"
+    },
+    {
+        "nameTecnology": "React",
+        "icon": "./images/data-skill/react.png"
+    },
+    {
+        "nameTecnology": "Git",
+        "icon": "./images/data-skill/git.png"
+    },
+    {
+        "nameTecnology": "Figma",
+        "icon": "./images/data-skill/figma.png"
+    },
+    {
+        "nameTecnology": "Ilustrator",
+        "icon": "./images/data-skill/ai.png"
+    },
+    {
+        "nameTecnology": "Photoshop",
+        "icon": "./images/data-skill/ps.png"
+    },
+    {
+        "nameTecnology": "Revit",
+        "icon": "./images/data-skill/revit.png"
+    },
+    {
+        "nameTecnology": "Navisworks",
+        "icon": "./images/data-skill/navis.png"
+    },
+    {
+        "nameTecnology": "Tekla Structures",
+        "icon": "./images/data-skill/tekla.png"
+    },
+    {
+        "nameTecnology": "AutoCAD",
+        "icon": "./images/data-skill/autocad.png"
+    },
+    {
+        "nameTecnology": "ArchiCad",
+        "icon": "./images/data-skill/archicad.png"
     }
 ]
