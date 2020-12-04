@@ -2,12 +2,18 @@ import React from 'react';
 import TitleAbout from '../components/headers/TitleAbout';
 import './AboutView.css';
 import photo from '../assets/images/foto.png';
+import cv from '../assets/files/cv.pdf';
 import nexticon2 from '../assets/icons/nexticon.png';
 import CvSection from '../components/dinamic-components/CvSection';
 import Skills from '../components/dinamic-components/Skills';
 import ButtonPrimary from '../components/buttons/ButtonPrimary';
 
 const AboutView = () => {
+    const openFile = (path) => {
+        var file = path;
+        return window.open(file, "resizeable", "scrollbar");
+    };
+
     return (
         <div className="box-about">
             <TitleAbout />
@@ -43,8 +49,11 @@ const AboutView = () => {
                 y cursar dos estudios universitarios simultáneamente han sido mis
                 mayores restos.</p>
 
+            {/* <a target="_blank" rel="noopener noreferrer" href="http://your_url_here.html">Link</a> */}
+
             <ButtonPrimary
                 contenidobtn='Currículum'
+                funcion={() => openFile(cv)}
             />
             <Skills />
 

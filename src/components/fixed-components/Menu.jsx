@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -22,16 +22,16 @@ const Menu = (props) => {
     const [liActive, setLiActive] = useState({ color: '#F03700', fontSize: '22px', fontWeight: '900' });
 
     const showMenuList = () => {
-        setColorMenu({ backgroundColor: '#003D5D'});
+        setColorMenu({ backgroundColor: '#003D5D' });
         setTextButtonCircle('-');
-        setShowMenu({ display: 'block'});
+        setShowMenu({ display: 'block' });
     };
 
     const hideMenuList = () => {
         setColorMenu({ backgroundColor: 'transparent' });
         setLiActive({ backgroundColor: '#fffff', fontSize: '20px', fontWeight: '400' });
         setTextButtonCircle('+');
-        setShowMenu({ display: 'none'});
+        setShowMenu({ display: 'none' });
         setShowContact({ display: 'none' });
     };
 

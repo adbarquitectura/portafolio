@@ -22,8 +22,7 @@
 
 .box-img-about img {
     mix-blend-mode: luminosity;
-    border-radius: 0px 0px 180px 180px;
-    filter: grayscale(100%);
+    border-radius: 0px 0px 180px 180px;    
     width: 110%;
     position: relative;
     margin-left: -15px;
