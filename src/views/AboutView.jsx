@@ -49,8 +49,6 @@ const AboutView = () => {
                 y cursar dos estudios universitarios simultáneamente han sido mis
                 mayores restos.</p>
 
-            {/* <a target="_blank" rel="noopener noreferrer" href="http://your_url_here.html">Link</a> */}
-
             <ButtonPrimary
                 contenidobtn='Currículum'
                 funcion={() => openFile(cv)}
@@ -67,12 +65,7 @@ const AboutView = () => {
                     <li>Diseño responsable.</li>
                 </ul>
             </div>
-
-            <div>
-
-
-            </div>
-
+       
         </div>
     )
 }

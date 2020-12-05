@@ -4,10 +4,10 @@ import './NavBar.css';
 const NavBar = () => {
 
     const [scrolled, setScrolled] = React.useState('');
-    
+
     const handleScroll = () => {
         const offset = window.scrollY;
-        offset > 0 ? setScrolled('box-menu-desktop-scroll') : setScrolled('');
+        offset > 0 ? setScrolled('box-navBar-scroll') : setScrolled('');
     }
 
     useEffect(() => {
@@ -15,11 +15,13 @@ const NavBar = () => {
     })
     return (
 
-        <div className={`box-menu-desktop ${scrolled}`} >
-            <a href="#proyectos">Proyectos</a>
-            <a href="#acerca">Acerca de mí</a>
-            <a href="#intereses">Contancto</a>
-        </div>
+        <nav className={`box-navBar ${scrolled}`}>
+            <ul className="box-menu-desktop" >
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#intereses">Contancto</a></li>
+            </ul>
+        </nav>
 
     );
 };

@@ -19,7 +19,6 @@ const HomeView = () => {
                 liThirdText='Contacto'
             />
 
-
         </div>
     )
 }

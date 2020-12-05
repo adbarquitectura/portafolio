@@ -8,7 +8,7 @@ const CvSection = (props) => {
             <p>
             “La inseguridad de la nada es la certeza del Todo.”
             <br></br>
-            ADB
+            <span>ADB</span>
             </p>
             
             <div className="box-img-about">

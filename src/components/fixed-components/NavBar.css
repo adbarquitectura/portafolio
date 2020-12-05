@@ -1,16 +1,42 @@
-.box-menu-desktop {
+.box-navBar {
     display: none;
 }
 
 @media only screen and (min-width: 768px) {
-    .box-menu-desktop {
-        display: block;
+    .box-navBar {
+        display: flex;
         position: fixed;
-        background-color: tomato;
         z-index: 100000;
-        width: 100%;
+        width: 60%;
+        top: 0;
+        right: 0;
+        justify-content: flex-end;
+        align-items: center;
+        transition: 0.5s;
+        padding: 30px 100px;
     }
-    .box-menu-desktop-scroll {
-        background-color: yellow;
+    .box-menu-desktop {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-menu-desktop li{
+        list-style: none;
+        margin-left: 80px;
+    }
+    .box-menu-desktop li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .box-menu-desktop li  a:hover {
+          color: #F03700;      
+    }
+    .box-navBar-scroll {
+        background-color: #021130;
+        border-radius: 0px 0px 150px 150px;
     }
 }

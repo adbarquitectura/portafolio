@@ -84,8 +84,6 @@ const Menu = (props) => {
                 visible={showContact}
             />
             
-            <AboutView />
-            
         </Router>
 
     );
