@@ -21,16 +21,17 @@
     }
     .box-img-icon {
         display: none;
-        ;
     }
     .box-img-photo {
         display: block;
         position: relative;
+        margin-right: -50px;
         margin-bottom: -30px;
         margin-top: -70px;
-      
         box-sizing: border-box;
         object-fit: cover;
+        mix-blend-mode: overlay;
+        opacity: 0.6;
     }
     .box-home-content p {
         text-align: left;

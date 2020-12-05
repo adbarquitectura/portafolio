@@ -25,8 +25,8 @@ const ProjectsView = () => {
                 {
                     dataProject.map((project, index) => {
                         return (
-                            // <div style={{ backgroundImage: `url('${project.imgback}')` }} key={index} className="box-cards-single">
-                            <div key={index} className="box-cards-single">
+                            <div style={{ backgroundImage: `url('${project.imgback}')` }} key={index} className="box-cards-single">
+                            {/* <div key={index} className="box-cards-single"> */}
                                 <div className="box-cards-in-single">
                                     <div className="box-img-card">
                                         <img src={project.img} alt={project.name} />
