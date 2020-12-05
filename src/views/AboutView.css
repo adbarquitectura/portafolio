@@ -1,12 +1,11 @@
 .box-about {
     padding-top: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     height: auto;
     box-sizing: border-box;
 }
 
-.box-tag a:link, .box-tag a:visited, .box-tag a:active {
-   
+.box-tag a:link, .box-tag a:visited, .box-tag a:active {   
     line-height: 35px;
     font-size: 20px;
     color: #E97451;
@@ -39,7 +38,7 @@
     margin-top: 50px;
 }
 
-box-cv-content button{
+.box-cv-content button{
     align-self: start;;
 }
 

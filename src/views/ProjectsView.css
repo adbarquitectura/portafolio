@@ -1,9 +1,9 @@
 .box-projects {
-    /* background: linear-gradient(360deg, #021130 0%, #003D5D 26.37%, #003D5D 87.4%, #021130 99.29%);    */
     padding-top: 15px;
-    padding-bottom: 65px;
+    padding-bottom: 150px;
     height: auto;
     box-sizing: border-box;
+    background-color: #E97451;
 }
 
 .box-cards-projects {
@@ -34,17 +34,13 @@
     min-height: 250px;
     margin-right: 60px;
     text-align: center;
-    /* border-right: 2.5px solid #4B85AD;
-    border-top: 2.5px solid #4B85AD;
-    border-bottom: 2.5px solid #4B85AD; */
-    /* mix-blend-mode: exclusion;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     background-position: center;
     background-blend-mode: exclusion;
     background-color: #021130;
+    box-sizing: border-box;
 }
 
 .box-cards-single:nth-child(even) {
@@ -64,6 +60,7 @@
     background-position: center;
     background-blend-mode: exclusion;
     background-color: #021130;
+    box-sizing: border-box;
 }
 
 .box-cards-single:nth-child(odd) .box-cards-in-single {
@@ -74,8 +71,6 @@
 }
 
 .box-cards-single:nth-child(even) .box-cards-in-single {
-    /* background: rgba(233, 116, 81, 0.95); */
-    /* background: #FFD0B0; */
     background: rgba(255, 208, 176, 0.95);
     border-radius: 180px 0px 50px 50px;
     min-height: 250px;
@@ -127,7 +122,42 @@
 /* For desktop: */
 
 @media only screen and (min-width: 768px) {
+    .box-projects {
+        background-color: #E97451;
+    }
     .box-cards-projects {
         display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .box-cards-projects p {
+        display: flex;
+    }
+    .box-cards-single:nth-child(odd) {
+        border-radius: 0px 50px 50px 50px;
+        padding: 0;
+        margin: 30px;
+        min-width: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+        background-blend-mode: exclusion;
+        background-color: #021130;
+        box-sizing: border-box;
+    }
+    .box-cards-single:nth-child(even) {
+        border-radius: 50px 0px 50px 50px;
+        padding: 0;
+        margin: 30px;
+        min-width: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+        background-blend-mode: exclusion;
+        background-color: #021130;
+        box-sizing: border-box;
     }
 }
