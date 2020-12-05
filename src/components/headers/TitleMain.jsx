@@ -8,9 +8,11 @@ const TitleMain = (props) => {
       <div className="box-texts-main">
         <h1 className="h-white">front</h1>
       </div>
-      
+
       <h1 className="h-orange">end</h1>
-      <h2>developer</h2>      
+      <h1 className="h-white-desktop">front<span>end</span></h1>
+      <h2>developer</h2>
+
     </div>
   );
 };

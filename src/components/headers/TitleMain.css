@@ -27,7 +27,7 @@
     line-height: 0;
     padding-top: 30px;
     padding-left: 25px;
-    padding-bottom: 0;    
+    padding-bottom: 0;
 }
 
 .box-texts-header h2 {
@@ -37,4 +37,27 @@
     letter-spacing: 5px;
     position: relative;
     top: -10px;
+}
+.h-white-desktop{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .box-texts-header {
+        box-sizing: border-box;
+        text-align: left;
+        align-items: left;
+    }
+    
+    .box-texts-main {
+       display: none;
+    }
+      
+    .h-orange {
+        display: none;
+    }
+    .h-white-desktop{
+        display: block;
+        line-height: 0;
+    }
 }
