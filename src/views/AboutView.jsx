@@ -15,7 +15,7 @@ const AboutView = () => {
     };
 
     return (
-        <div className="box-about">
+        <div  className="box-about">
             <TitleAbout />
 
             <div className="box-tag">

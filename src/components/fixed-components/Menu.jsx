@@ -42,6 +42,7 @@ const Menu = (props) => {
 
     return (
         <Router>
+         
             <Switch>
                 <Route exact path='/'>
                     <PresentationHome />
@@ -82,7 +83,9 @@ const Menu = (props) => {
             <ContactModule
                 visible={showContact}
             />
-
+            
+            <AboutView />
+            
         </Router>
 
     );

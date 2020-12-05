@@ -39,7 +39,7 @@
     border-bottom: 2.5px solid #4B85AD; */
     /* mix-blend-mode: exclusion;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
     background-position: center;
@@ -58,10 +58,10 @@
     min-height: 250px;
     margin-left: 60px;
     text-align: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    background-position: center;  
+    background-position: center;
     background-blend-mode: exclusion;
     background-color: #021130;
 }
@@ -122,4 +122,12 @@
 .box-cards-single button {
     min-width: 160px;
     border-color: #003D5D;
+}
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+    .box-cards-projects {
+        display: flex;
+    }
 }

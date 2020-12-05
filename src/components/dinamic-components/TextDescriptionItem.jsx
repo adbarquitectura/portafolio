@@ -13,11 +13,6 @@ const TextDescriptionItem = (props) => {
             animationDuration: '0.5s',
         });
     }
-
-    /* const hideText = () => {
-        setStyleBoxText({ display: 'none' });
-    } */
-
     return (
         <div className="box-text-description">
             <ButtonText

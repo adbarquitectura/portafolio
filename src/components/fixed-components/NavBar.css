@@ -1,0 +1,16 @@
+.box-menu-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .box-menu-desktop {
+        display: block;
+        position: fixed;
+        background-color: tomato;
+        z-index: 100000;
+        width: 100%;
+    }
+    .box-menu-desktop-scroll {
+        background-color: yellow;
+    }
+}

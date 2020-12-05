@@ -19,7 +19,7 @@ const ProjectsView = () => {
 
     return (
 
-        <div className="box-projects">
+        <div id="proyectos" className="box-projects">
             <h2>proyectos</h2>
             <div className="box-cards-projects">
                 {
