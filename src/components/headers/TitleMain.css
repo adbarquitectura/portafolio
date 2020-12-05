@@ -56,8 +56,11 @@
     .h-orange {
         display: none;
     }
-    .h-white-desktop{
+    .h-white-desktop{        
         display: block;
         line-height: 0;
+    }
+    .h-white-desktop span{
+        color: #F03700;
     }
 }
