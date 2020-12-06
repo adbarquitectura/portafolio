@@ -85,7 +85,7 @@
     font-weight: 600;
     letter-spacing: 5px;    
     margin-bottom: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .box-about-interes li {
@@ -99,6 +99,9 @@
 
 .box-skills {
     padding: 30px;
+    background-color: #021130;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .box-in-skills {
@@ -147,6 +150,12 @@
     .box-img-skill-desktop {
         display: block;
     }
+    .box-skills {
+        padding: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+  
     .box-cards-skills {
         top: 0;
         left: 0;
