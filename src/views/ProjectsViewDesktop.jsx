@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './ProjectsView.css';
+import './ProjectsViewDesktop.css';
 import ButtonSecundaryLink from '../components/buttons/ButtonSecundaryLink';
-import TextDescriptionItem from '../components/dinamic-components/TextDescriptionItem';
+import ButtonPrimaryLink from '../components/buttons/ButtonPrimaryLink';
 
-const ProjectsView = () => {
+const ProjectsViewDesktop = () => {
 
     const [dataProject, setDataProject] = useState([]);
 
@@ -19,28 +19,29 @@ const ProjectsView = () => {
 
     return (
 
-        <div id="proyectos" className="box-projects">
-            <h2>proyectos</h2>
-            <div className="box-cards-projects">
+        <div className="box-projects-desktop">
+            <div className="box-cards-projects-desktop">
                 {
                     dataProject !== undefined && dataProject.map((project, index) => {
                         return (
-                            <div style={{ backgroundImage: `url('${project.imgback}')` }} key={index} className="box-cards-single">
+                            <div style={{ backgroundImage: `url('${project.imgback}')` }} key={index} className="box-cards-single-desktop">
 
-                                <div className="box-cards-in-single">
+                                <div className="box-cards-in-single-desktop">
                                     <div className="box-img-card">
                                         <img src={project.img} alt={project.name} />
                                     </div>
 
-                                    <TextDescriptionItem
-                                        nameProject={project.name}
-                                        descriptionProject={project.description}
-                                    />
+                                    <h2>
+                                        {project.name}
+                                    </h2>
+                                    <p>
+                                        {project.description}
+                                    </p>
 
-                                    <div className="box-cards-tecnologies">
+                                    <div className="box-cards-tecnologies-desktop">
                                         {project.tecnologies.map((tecnology, indx) => {
                                             return (
-                                                <div key={indx} className="box-img-icon">
+                                                <div key={indx} className="box-img-icon-desktop">
                                                     <img src={tecnology.icon} alt={tecnology.nameTecnology} />
                                                 </div>
                                             )
@@ -48,10 +49,14 @@ const ProjectsView = () => {
                                         })}
                                     </div>
 
-                                    <div className="box-link-card">
-                                        <ButtonSecundaryLink
+                                    <div className="box-link-card-desktop">
+                                        <ButtonPrimaryLink
                                             anclaLinkTo={project.url}
                                             contenidobtn='Ir a la App'
+                                        />
+                                        <ButtonSecundaryLink
+                                            anclaLinkTo={project.repository}
+                                            contenidobtn='Github'
                                         />
                                     </div>
 
@@ -63,9 +68,8 @@ const ProjectsView = () => {
                     })
                 }
             </div>
-            
         </div>
     )
 }
 
-export default ProjectsView;
+export default ProjectsViewDesktop;

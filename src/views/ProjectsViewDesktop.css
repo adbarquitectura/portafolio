@@ -1,0 +1,130 @@
+.box-projects-desktop{
+    display: none;
+}
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+    .box-projects-desktop{
+        display: block;    
+        padding-top: 15px;
+        padding-bottom: 150px;
+        height: auto;
+        box-sizing: border-box;
+        background-color: #021130;
+    }   
+    .box-cards-projects-desktop {
+        /* padding-left: 30px;
+        padding-right: 30px; */
+        box-sizing: border-box;
+    }
+    
+    .box-cards-projects-desktop p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        /* color: #021130; */
+        font-weight: 500;
+        color: white;
+        text-align: start;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 17px;
+    }
+    
+    .box-cards-single-desktop:nth-child(odd) {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px 50px 50px 50px;
+        /* padding: 15px 15px 15px 35px; */
+        padding-top: 50px;
+        /* margin-top: 50px;
+        margin-bottom: 50px; */
+        min-height: 250px;
+        /* margin-right: 60px; */
+        margin: 60px 30px 60px 30px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+        background-blend-mode: exclusion;
+        background-color: #021130;
+        box-sizing: border-box;
+    }
+    
+    .box-cards-single-desktop:nth-child(even) {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50px 50px 50px 50px;
+        /* padding: 15px 35px 15px 20px; */
+        padding-top: 50px;
+        /* margin-top: 35px;
+        margin-bottom: 35px; */
+        min-height: 250px;
+        /*   margin-left: 60px; */
+        margin: 60px 30px 60px 30px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+        background-blend-mode: exclusion;
+        background-color: #021130;
+        box-sizing: border-box;
+    }
+    
+    .box-cards-single-desktop:nth-child(odd) .box-cards-in-single {
+        /* background: rgba(255, 208, 176, 0.95); */
+        border-radius: 50px 180px 50px 50px;
+        min-height: 150px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    
+    .box-cards-single-desktop:nth-child(even) .box-cards-in-single {
+        /* background: rgba(255, 208, 176, 0.95); */
+        border-radius: 180px 50px 50px 50px;
+        min-height: 150px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    
+    .box-img-card-desktop {
+        box-sizing: border-box;
+        align-items: center;
+    }
+    
+    .box-img-card-desktop img {
+        max-height: 160px;
+        object-fit: cover;
+        position: relative;
+        margin-top: -50px;
+        padding: 15px;
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .box-cards-tecnologies-desktop {
+        color: white;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .box-img-icon-desktop img {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+        box-sizing: border-box;
+    }
+    
+    .box-text-description-desktop {
+        position: relative;
+        top: -10px;
+    }
+   
+}

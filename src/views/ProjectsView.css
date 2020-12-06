@@ -135,8 +135,8 @@
         display: none;
     }
     .box-cards-projects {
-        display: flex;     
-        box-sizing: border-box;        
+        display: flex;
+        box-sizing: border-box;
     }
     .box-cards-single:nth-child(even) {
         margin: 30px;

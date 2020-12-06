@@ -13,6 +13,7 @@ import ProjectsView from '../../views/ProjectsView';
 import AboutView from '../../views/AboutView';
 import ContactModule from './ContactModule';
 import ContactView from '../../views/ContactView';
+import ProjectsViewDesktop from '../../views/ProjectsViewDesktop';
 
 const Menu = (props) => {
     const [textButtonCircle, setTextButtonCircle] = useState('+');
@@ -47,6 +48,7 @@ const Menu = (props) => {
                 <Route exact path='/'>
                     <PresentationHome />
                     <ProjectsView />
+                    <ProjectsViewDesktop />
                 </Route>
                 <Route path='/about'>
                     <AboutView />
