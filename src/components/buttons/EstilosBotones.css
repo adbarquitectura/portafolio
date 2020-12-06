@@ -157,3 +157,42 @@
 .btnCircle.active a {
     color: #FD4C00 !important;
 }
+
+.btnCircleSec {
+    background-color: transparent;
+    color: #ffff;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    min-height: 60px;
+    min-width: 60px;
+    border: solid 2px #F03700;
+    border-radius: 45px;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;    
+    font-family: 'Bebas Neue';
+    font-weight: 100;    
+}
+
+.btnCircleSec:hover {
+    background-color: #F03700;
+    color: white;
+}
+
+.btnCircleSec:active {
+    background-color: transparent;
+    color: #F03700;
+    border: 2px solid #F03700;
+}
+
+.btnCircleSec a:link, .btnCircleSec a:visited, .btnCircleSec a:active {
+    text-decoration: none;
+    color: white;
+    font-family: 'Assistant';
+    font-weight: 600;
+}
+
+.btnCircleSec.active a {
+    color: #FD4C00 !important;
+}

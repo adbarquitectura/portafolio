@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../views/AboutView.css';
-import ButtonCircle from '../buttons/ButtonCircle';
+import ButtonCircleSecundary from '../buttons/ButtonCircleSecundary';
 ;
 
 const Skills = () => {
@@ -34,8 +34,8 @@ const Skills = () => {
 
             <div className="box-in-skills">
                 <div className="box-in-skills-button">
-                    <ButtonCircle
-                        contenidobtn='<'
+                    <ButtonCircleSecundary
+                        contenidobtn='‹'
                         funcion={updateArraySkillsback}
                     />
                 </div>
@@ -53,8 +53,8 @@ const Skills = () => {
                 </div>
 
                 <div className="box-in-skills-button">
-                    <ButtonCircle
-                        contenidobtn='>'
+                    <ButtonCircleSecundary
+                        contenidobtn='›'
                         funcion={updateArraySkillsAhead}
                     />
                 </div>
