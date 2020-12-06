@@ -89,10 +89,9 @@
     font-weight: 200;
     text-align: center;
     cursor: pointer;
-    padding-left: 20px; 
-    padding-right: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
     border-bottom: 2px solid #F03700;
-   
 }
 
 .btnText:hover {
@@ -133,7 +132,6 @@
     position: relative;
     margin-top: -50%;
     font-family: 'Bebas Neue';
-    
 }
 
 .btnCircle:hover {
@@ -170,16 +168,16 @@
     font-size: 40px;
     text-align: center;
     padding-left: 20px;
-    padding-right: 20px;    
+    padding-right: 20px;
     font-family: 'Assistant';
     text-transform: uppercase;
-    font-weight: 100;    
+    font-weight: 100;
 }
 
 .btnCircleSec:hover {
     background-color: transparent;
     color: #FD4C00;
-    font-weight: 600; 
+    font-weight: 600;
 }
 
 .btnCircleSec:active {
@@ -197,4 +195,10 @@
 
 .btnCircleSec.active a {
     color: #FD4C00 !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .btnText {
+        border-bottom: none;
+    }
 }

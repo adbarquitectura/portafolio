@@ -26,7 +26,7 @@ const ProjectsView = () => {
                     dataProject !== undefined && dataProject.map((project, index) => {
                         return (
                             <div style={{ backgroundImage: `url('${project.imgback}')` }} key={index} className="box-cards-single">
-                            
+
                                 <div className="box-cards-in-single">
                                     <div className="box-img-card">
                                         <img src={project.img} alt={project.name} />
@@ -48,13 +48,14 @@ const ProjectsView = () => {
                                         })}
                                     </div>
 
-                                    <ButtonSecundaryLink
-                                        anclaLinkTo={project.url}
-                                        contenidobtn=' Ir a la App'
-                                    />
+                                    <div className="box-link-card">
+                                        <ButtonSecundaryLink
+                                            anclaLinkTo={project.url}
+                                            contenidobtn=' Ir a la App'
+                                        />
+                                    </div>
+
                                 </div>
-
-
 
                             </div>
 

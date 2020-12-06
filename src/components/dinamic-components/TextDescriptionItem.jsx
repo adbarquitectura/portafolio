@@ -21,8 +21,6 @@ const TextDescriptionItem = (props) => {
             <ButtonText
                 contenidobtn={props.nameProject}
                 funcion={showText}
-            // imgsrc={buttonPlus}
-
             />
             <div style={styleBoxText} >
                 <p>{props.descriptionProject}</p>

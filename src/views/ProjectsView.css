@@ -131,25 +131,30 @@
     .box-projects {
         background-color: #E97451;
     }
-    .box-cards-projects {
-        display: flex;
-        padding-left: 20px;
-        padding-right: 20px;
-        box-sizing: border-box;
+    .box-img-card {
+        display: none;
     }
-    .box-cards-projects p {
-        display: flex;
+    .box-cards-projects {
+        display: flex;     
+        box-sizing: border-box;        
     }
     .box-cards-single:nth-child(even) {
-        padding-top: 50px;
         margin: 30px;
         min-width: 250px;
         min-height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
     .box-cards-single:nth-child(odd) {
-        padding-top: 50px;
         margin: 30px;
         min-width: 250px;
         min-height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .box-link-card {
+        display: none;
     }
 }
