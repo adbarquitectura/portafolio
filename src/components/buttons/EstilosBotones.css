@@ -163,27 +163,29 @@
     color: #ffff;
     box-sizing: border-box;
     transition-duration: 0.4s;
-    min-height: 60px;
-    min-width: 60px;
-    border: solid 2px #F03700;
+    height: 60px;
+    width: 60px;
+    border: none;
     border-radius: 45px;
     font-size: 40px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;    
-    font-family: 'Bebas Neue';
+    font-family: 'Assistant';
+    text-transform: uppercase;
     font-weight: 100;    
 }
 
 .btnCircleSec:hover {
-    background-color: #F03700;
-    color: white;
+    background-color: transparent;
+    color: #FD4C00;
+    font-weight: 600; 
 }
 
 .btnCircleSec:active {
     background-color: transparent;
     color: #F03700;
-    border: 2px solid #F03700;
+    font-weight: 600;
 }
 
 .btnCircleSec a:link, .btnCircleSec a:visited, .btnCircleSec a:active {
