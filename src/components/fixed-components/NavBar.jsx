@@ -19,7 +19,7 @@ const NavBar = () => {
             <ul className="box-menu-desktop" >
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#acerca">Acerca de mí</a></li>
-                <li><a href="#intereses">Contacto</a></li>
+                <li><a href="#contanto">Contacto</a></li>
             </ul>
         </nav>
 

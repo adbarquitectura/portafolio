@@ -15,8 +15,6 @@
     }
     .box-about-cv-desktop {
         display: flex;
-        flex: 1 1 auto;
-        align-items: center;
         justify-content: space-between;
     }
     .box-about-cv-text p {
@@ -38,11 +36,12 @@
     }
     .box-about-interes-desktop {
         padding: 30px;
-    background-color: #021130;
+        background-color: #021130;
     }
-
-
-
+    .box-about-interes-cv-desktop {
+        display: flex;        
+        justify-content: space-between;
+    }
     .box-tag-desktop a:link, .box-tag-desktop a:visited, .box-tag-desktop a:active {
         line-height: 35px;
         font-size: 20px;
@@ -56,7 +55,7 @@
         width: 100%;
     }
     /* CvSection*/
-    .box-img-photo-desktop img {
+    /*  .box-img-photo-desktop img {
         background-color: magenta;
         mix-blend-mode: luminosity;
         width: 120%;
@@ -113,7 +112,7 @@
         font-weight: 600;
         letter-spacing: 5px;
         margin-bottom: 15px;
-    }
+    } */
     .box-about-interes-desktop li {
         color: #ffff;
         padding: 3px;
