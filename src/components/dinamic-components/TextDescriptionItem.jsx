@@ -7,19 +7,22 @@ const TextDescriptionItem = (props) => {
     const [styleBoxText, setStyleBoxText] = useState({ display: 'none' })
 
     const showText = () => {
-        setStyleBoxText({
-            display: 'block',
-            animationName: 'example',
-            animationDuration: '0.5s',
-        });
+        if (window.matchMedia("(max-width: 400px)").matches) {
+            setStyleBoxText({
+                display: 'block',
+                animationName: 'example',
+                animationDuration: '0.5s',
+            });
+        }      
+
     }
     return (
         <div className="box-text-description">
             <ButtonText
                 contenidobtn={props.nameProject}
                 funcion={showText}
-                // imgsrc={buttonPlus}
-                
+            // imgsrc={buttonPlus}
+
             />
             <div style={styleBoxText} >
                 <p>{props.descriptionProject}</p>
