@@ -1,15 +1,16 @@
 import React from 'react';
 import './Menu.css';
-import ButtonPrimary from '../buttons/ButtonPrimary';
+import ButtonPrimaryLink from '../buttons/ButtonPrimaryLink';
 
 const ContactModule = (props) => {
     return (
 
-        <div  style={props.visible}className="box-contacto-section-not-visible">
+        <div style={props.visible} className="box-contacto-section-not-visible">
             <p>Puedes contactarme aquí.</p>
-           
-            <ButtonPrimary
+
+            <ButtonPrimaryLink
                 contenidobtn=' Escríbeme'
+                anclaLinkTo='mailto:adnamadiaz@gmail.com'
             />
         </div>
 

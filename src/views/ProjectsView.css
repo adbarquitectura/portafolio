@@ -128,9 +128,8 @@
 /* For desktop: */
 
 @media only screen and (min-width: 768px) {
-   
     .box-projects {
-        background-color: #021130;
+        background-color: #E97451;
     }
     .box-cards-projects {
         display: flex;
@@ -153,5 +152,4 @@
         min-width: 250px;
         min-height: 250px;
     }
-
 }
