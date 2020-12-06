@@ -97,8 +97,8 @@
 
 .box-skills {
     padding: 30px;
-
 }
+
 .box-in-skills {
     display: flex;
     justify-content: center;
@@ -111,10 +111,10 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    padding: 15px 0px 0px 0px ;
+    padding: 15px 0px 0px 0px;
 }
 
-.box-in-skills-button{
+.box-in-skills-button {
     top: 0;
     left: 0;
     right: 0;
@@ -130,8 +130,43 @@
     margin: auto;
     box-sizing: border-box;
 }
+
 .box-img-skill img {
     width: 100px;
     height: 100px;
     object-fit: contain;
+}
+
+.box-img-skill-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .box-img-skill-desktop {
+        display: block;
+    }
+    .box-cards-skills {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        padding: 15px 0px 0px 0px;     
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-img-skill-desktop {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: 70px;
+        margin-right: 70px;
+        box-sizing: border-box;
+    }
+    .box-img-skill-desktop img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
 }

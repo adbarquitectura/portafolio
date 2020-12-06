@@ -48,7 +48,38 @@ const Skills = () => {
                                 <p>{dataSkills[0].nameTecnology}</p>
                             </div>
                         )
-
+                    }
+                    {
+                        dataSkills[1] !== undefined && (
+                            <div className="box-img-skill-desktop">
+                                <img src={dataSkills[1].icon} />
+                                <p>{dataSkills[1].nameTecnology}</p>
+                            </div>
+                        )
+                    }
+                    {
+                        dataSkills[2] !== undefined && (
+                            <div className="box-img-skill-desktop">
+                                <img src={dataSkills[2].icon} />
+                                <p>{dataSkills[2].nameTecnology}</p>
+                            </div>
+                        )
+                    }
+                    {
+                        dataSkills[3] !== undefined && (
+                            <div className="box-img-skill-desktop">
+                                <img src={dataSkills[3].icon} />
+                                <p>{dataSkills[3].nameTecnology}</p>
+                            </div>
+                        )
+                    }
+                    {
+                        dataSkills[4] !== undefined && (
+                            <div className="box-img-skill-desktop">
+                                <img src={dataSkills[4].icon} />
+                                <p>{dataSkills[4].nameTecnology}</p>
+                            </div>
+                        )
                     }
                 </div>
 

@@ -7,16 +7,14 @@
 @media only screen and (min-width: 768px) {
     .box-about-desktop {
         display: block;
-        /* 
-        padding-top: 120px;
-        padding-bottom: 200px; */
-        height: auto;
+        min-height: 300px;
         box-sizing: border-box;
     }
     .box-about-cv-desktop {
         display: flex;
         justify-content: space-between;
         flex-wrap: no-wrap;
+        
     }
     .box-about-cv-text p {
         color: #021130;
