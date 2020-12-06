@@ -1,18 +1,25 @@
-footer{
-    box-sizing: border-box;
-    padding-top: 15px;
+footer {
+    display: none;
 }
-.h-white-about-footer{
-    text-align: center;
-    letter-spacing: 20px;    
-    color: #021130;
-    margin-bottom: 15px;
-    line-height: 45px;    
-}
-.h-orange1-about-footer{   
-    color: #E97451;
-    line-height: 20px;
-    font-weight: 300;
-    letter-spacing: 8px;
-    text-align: center;       
+
+@media only screen and (min-width: 768px) {
+    footer {
+        display: block;
+        box-sizing: border-box;
+        padding-top: 15px;
+    }
+    .h-white-about-footer {
+        text-align: center;
+        letter-spacing: 20px;
+        color: #021130;
+        margin-bottom: 15px;
+        line-height: 45px;
+    }
+    .h-orange1-about-footer {
+        color: #E97451;
+        line-height: 20px;
+        font-weight: 300;
+        letter-spacing: 8px;
+        text-align: center;
+    }
 }
