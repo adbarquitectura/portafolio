@@ -23,10 +23,10 @@ const ProjectsView = () => {
             <h2>proyectos</h2>
             <div className="box-cards-projects">
                 {
-                    dataProject.map((project, index) => {
+                    dataProject !== undefined && dataProject.map((project, index) => {
                         return (
                             <div style={{ backgroundImage: `url('${project.imgback}')` }} key={index} className="box-cards-single">
-                            {/* <div key={index} className="box-cards-single"> */}
+                            
                                 <div className="box-cards-in-single">
                                     <div className="box-img-card">
                                         <img src={project.img} alt={project.name} />

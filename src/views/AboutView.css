@@ -70,9 +70,16 @@
 }
 
 .box-about-h2 {
-    color: #E97451;
+    color: #F03700;
     line-height: 20px;
-    font-weight: 300;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.box-skills h2 {
+    color: #F03700;
+    line-height: 20px;
+    font-weight: 600;
     letter-spacing: 5px;
 }
 
