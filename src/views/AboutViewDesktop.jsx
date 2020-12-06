@@ -57,12 +57,12 @@ const AboutViewDesktop = () => {
             <div className="box-about-interes-desktop">
                 <h2 id="intereses">intereses</h2>
                 <div className="box-about-interes-cv-desktop">
-                    <div>
+                    <div className="box-about-interes-cv-p">
                         <p>
                             Optimizar recursos y avanzar con un paso adelante son partes de mis prioridades en cualquier proyecto. </p>
                     </div>
 
-                    <div>
+                    <div className="box-about-interes-cv-ul">
                         <ul>
                             <li>Innovación tecnológica</li>
                             <li>Desarrollo web</li>
@@ -73,7 +73,7 @@ const AboutViewDesktop = () => {
 
                     </div>
 
-                    <div id="contanto">
+                    <div id="contanto" className="box-about-interes-contacto">
                         <p>Puedes contactarme aquí.</p>
 
                         <ButtonPrimaryLink

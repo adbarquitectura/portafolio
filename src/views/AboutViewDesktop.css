@@ -18,7 +18,7 @@
         justify-content: space-between;
         flex-wrap: no-wrap;
     }
-    .box-about-cv-text p{
+    .box-about-cv-text p {
         color: #021130;
         text-align: start;
         padding: 0px 30px 0px 0px;
@@ -36,7 +36,7 @@
     }
     .box-about-cv-text {
         width: 100%;
-        box-sizing: border-box;     
+        box-sizing: border-box;
         align-self: start;
     }
     .box-about-cv-note {
@@ -71,19 +71,34 @@
         margin-bottom: 15px;
     }
     .box-cv-content-desktop button {
-       margin-left: 0px;
+        margin-left: 0px;
     }
-  
     .box-about-interes-desktop li {
         color: #ffff;
         padding: 3px;
         font-weight: 100;
         font-size: 18px;
     }
+    .box-about-interes-cv-p {
+        width: 100%;
+        background: #003D5D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 50px 50px 50px;
+        align-self: center;
+        padding: 30px;
+    }
+    .box-about-interes-cv-ul {
+        width: 100%;
+        align-self: center;
+    }
+    .box-about-interes-contacto {
+        width: 100%;
+        align-self: center;
+        padding: 30px;
+    }
     /* Skills section*/
     .box-skills {
         padding: 30px;
         background-color: #003D5D;
     }
-   
 }
