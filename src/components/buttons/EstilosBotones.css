@@ -6,6 +6,7 @@
 
 .btnPrimary {
     background-color: #F03700;
+    font-family: 'Assistant';
     color: white;
     box-sizing: border-box;
     transition-duration: 0.4s;
