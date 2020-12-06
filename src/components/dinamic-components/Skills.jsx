@@ -32,11 +32,14 @@ const Skills = () => {
         <div id="habilidades" className="box-skills">
             <h2>habilidades</h2>
 
-            <div>
-                <ButtonCircle
-                    contenidobtn='<'
-                    funcion={updateArraySkillsback}
-                />
+            <div className="box-in-skills">
+                <div className="box-in-skills-button">
+                    <ButtonCircle
+                        contenidobtn='<'
+                        funcion={updateArraySkillsback}
+                    />
+                </div>
+
                 <div className="box-cards-skills">
                     {
                         dataSkills[0] !== undefined && (
@@ -48,10 +51,14 @@ const Skills = () => {
 
                     }
                 </div>
-                <ButtonCircle
-                    contenidobtn='>'
-                    funcion={updateArraySkillsAhead}
-                />
+
+                <div className="box-in-skills-button">
+                    <ButtonCircle
+                        contenidobtn='>'
+                        funcion={updateArraySkillsAhead}
+                    />
+                </div>
+
             </div>
 
         </div >

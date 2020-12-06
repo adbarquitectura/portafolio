@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.box-tag a:link, .box-tag a:visited, .box-tag a:active {   
+.box-tag a:link, .box-tag a:visited, .box-tag a:active {
     line-height: 35px;
     font-size: 20px;
     color: #E97451;
@@ -20,9 +20,9 @@
 }
 
 /* CvSection*/
+
 .box-img-about img {
     mix-blend-mode: luminosity;
-    /* border-radius: 0px 0px 180px 180px;     */
     width: 120%;
     position: relative;
     margin-bottom: -5px;
@@ -32,14 +32,14 @@
 
 .box-cv-content {
     background: rgba(251, 253, 255, 0.7);
-    /* border-radius: 250px 0px 250px 250px; */
     padding: 30px 30px 0px 30px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-.box-cv-content button{
-    align-self: start;;
+.box-cv-content button {
+    align-self: start;
+    ;
 }
 
 .box-cv-content p {
@@ -52,13 +52,14 @@
     padding-left: 30px;
 }
 
-.box-cv-content span {    
+.box-cv-content span {
     color: #F03700;
     font-weight: 600;
     font-size: 20px;
     font-family: 'Bebas Neue';
     letter-spacing: 3px;
 }
+
 .box-about-p {
     padding: 0px 30px 0px 30px;
     font-size: 18px;
@@ -74,6 +75,7 @@
     line-height: 20px;
     font-weight: 600;
     letter-spacing: 5px;
+    margin-bottom: 15px;
 }
 
 .box-skills h2 {
@@ -81,6 +83,7 @@
     line-height: 20px;
     font-weight: 600;
     letter-spacing: 5px;
+    margin-bottom: 15px;
 }
 
 .box-about-interes li {
@@ -91,12 +94,44 @@
 }
 
 /* Skills section*/
+
 .box-skills {
     padding: 30px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+
+}
+.box-in-skills {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
+.box-cards-skills {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 15px 0px 0px 0px ;
+}
+
+.box-in-skills-button{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.box-img-skill {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
 .box-img-skill img {
     width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
