@@ -10,7 +10,7 @@
 
 h1 {
   font-size: 96px;
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue'!important;
   letter-spacing: 20px;
   font-weight: 400;
   color: #ffffff;
@@ -20,10 +20,10 @@ h2 {
   font-size: 24px;
   font-weight: 300;
   color: #ffffff;
-  font-family: 'Bebas Neue';
+  font-family: 'Bebas Neue'!important;
   letter-spacing: 8px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h3 {
