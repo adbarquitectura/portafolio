@@ -1,0 +1,126 @@
+[
+    {
+        "id": 1,
+        "name": "Markdown Links",
+        "description": "Librería desarrollada utilizando Node.js, lee y analiza archivos formato “Markdown”, verifica los links contenidos y entrega algunas estadísticas.",            
+        "repository":"https://github.com/adbarquitectura/SCL014-md-links.git",
+        "imgback": "./images/data-projects/md2.jpg",
+        "url": "https://github.com/adbarquitectura/SCL014-md-links.git",
+        "img": "./images/data-projects/md.png",
+        "observations": "",
+        "tecnologies": [
+            {
+                "nameTecnology": "Node.js",
+                "icon": "./images/data-icon/node.png"
+            },
+            {
+                "nameTecnology": "JavaScript",
+                "icon": "./images/data-icon/JavaS.png"
+            }            
+        ]            
+    },
+    {
+        "id": 2,
+        "name": "Comida para todos",
+        "description": "Propuesta de diseño de landing page para cliente real.",            
+        "repository":"https://github.com/adbarquitectura/SCL014-comida-para-todos.git",
+        "imgback": "./images/data-projects/comidaparatodos2.jpg",
+        "url": "https://comida-para-todos-page.web.app/",
+        "img": "./images/data-projects/comidaparatodos.png",
+        "observations": "",
+        "tecnologies": [
+            {
+                "nameTecnology": "JavaScript",
+                "icon": "./images/data-icon/JavaS.png"
+            },
+            {
+                "nameTecnology": "React",
+                "icon": "./images/data-icon/React.png"
+            },
+            {
+                "nameTecnology": "Firebase",
+                "icon": "./images/data-icon/Firebase.png"
+            },
+            {
+                "nameTecnology": "Bootstrap",
+                "icon": "./images/data-icon/bootstrap.png"
+            },
+            {
+                "nameTecnology": "Desktop",
+                "icon": "./images/data-icon/desktop.png"
+            }
+        ]            
+    },
+    {
+        "id": 3,
+        "name": "Burger Song",
+        "description": "Aplicación administra, registra y gestiona pedidos desde clientes a un restaurante. Permite el control de pedidos en real-time y es personalizable para cada usuario.",            
+        "repository":"https://github.com/adbarquitectura/burger-queen.git",
+        "imgback": "./images/data-projects/burgersong2.jpg",
+        "url": "https://burgersong.on.fleek.co/",
+        "img": "./images/data-projects/burgersong.png",
+        "observations": "",
+        "tecnologies": [
+            {
+                "nameTecnology": "JavaScript",
+                "icon": "./images/data-icon/JavaS.png"
+            },
+            {
+                "nameTecnology": "React",
+                "icon": "./images/data-icon/React.png"
+            },
+            {
+                "nameTecnology": "Firebase",
+                "icon": "./images/data-icon/Firebase.png"
+            },
+            {
+                "nameTecnology": "Tablet",
+                "icon": "./images/data-icon/tableticon.png"
+            }
+        ]            
+    },
+    {
+        "id": 4,
+        "name": "Nómada",
+        "description": "Red social desarrollada para viajeros, permite compartir, editar, interactuar, almacenar experiencias de viaje y conectar con otros, fomenta la comunidad y el enriquecimiento cultural. Permite control e integración de accesos con otras plataformas y muestra data en real-time.",            
+        "repository":"https://github.com/adbarquitectura/SCL014-social-network.git",
+        "imgback": "./images/data-projects/nomada2.jpg",
+        "url": "https://naterayc.github.io/SCL014-social-network/#/",
+        "img": "./images/data-projects/nomada.png",
+        "observations": "",
+        "tecnologies": [
+            {
+                "nameTecnology": "JavaScript",
+                "icon": "./images/data-icon/JavaS.png"
+            },                
+            {
+                "nameTecnology": "Firebase",
+                "icon": "./images/data-icon/Firebase.png"
+            },
+            {
+                "nameTecnology": "Responsive",
+                "icon": "./images/data-icon/Responsive.png"
+            }
+        ]            
+    },
+    {
+        "id": 5,
+        "name": "Pokémon Godex",
+        "description": "Aplicación inspirada en el juego Pokémon Go, desarrollada para usuarios interesados en el entendimiento de las características de cada uno de sus Pokémon, a través del manejo de Data visualization.",            
+        "repository":"https://github.com/adbarquitectura/SCL014-data-lovers.git",
+        "imgback": "./images/data-projects/pokemon2.png",
+        "url": "https://adbarquitectura.github.io/SCL014-data-lovers/",
+        "img": "./images/data-projects/pokemon.png",
+        "observations": "",
+        "tecnologies": [
+            {
+                "nameTecnology": "JavaScript",
+                "icon": "./images/data-icon/JavaS.png"
+            },                
+            {
+                "nameTecnology": "Responsive",
+                "icon": "./images/data-icon/Responsive.png"
+            }
+        ]            
+    }
+]

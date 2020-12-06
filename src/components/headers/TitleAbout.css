@@ -1,0 +1,35 @@
+.box-texts-header-about {
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+
+.box-texts-header-about h1 {
+    color: #ffffff;
+    line-height: 0;
+    padding-left: 25px;
+}
+
+.h-orange1-about {
+    color: #E97451;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.h-orange-about {
+    color: #F03700;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    .box-texts-header-about {
+        text-align: start;
+    }
+    .box-texts-header-about h1 {
+        color: #021130;
+        padding-left: 0px;
+    }
+}

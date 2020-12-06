@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;600&family=Bebas+Neue&display=swap');
+.button {
+    font-family: 'Assistant';
+    font-weight: 600;
+}
+
+.btnPrimary {
+    background-color: #F03700;
+    color: white;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    min-height: 45px;
+    min-width: 200px;
+    border: none;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnPrimary:hover {
+    background-color: #003D5D;
+    color: white;
+}
+
+.btnPrimary:active {
+    background-color: transparent;
+    color: #F03700;
+    border: 2px solid #F03700;
+}
+
+.btnPrimary a:link, .btnPrimary a:visited, .btnPrimary a:active {
+    text-decoration: none;
+    color: white;
+    font-family: 'Assistant';
+    font-weight: 600;
+}
+
+.btnPrimary.active a {
+    color: #FD4C00 !important;
+}
+
+.btnSecundary {
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    min-height: 45px;
+    min-width: 200px;
+    border: 2px solid #4B85AD;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnSecundary:hover {
+    background-color: #4B85AD;
+    color: white;
+    border: none;
+}
+
+.btnSecundary:active {
+    background-color: transparent;
+    color: #4B85AD;
+    border: 2px solid #4B85AD;
+}
+
+.btnSecundary a:link, .btnSecundary a:visited, .btnSecundary a:active {
+    text-decoration: none;
+    color: white;
+    font-family: 'Assistant';
+    font-weight: 600;
+}
+
+.btnText {
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    min-height: 45px;
+    min-width: 200px;
+    border: none;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px solid #F03700;
+}
+
+.btnText:hover {
+    color: #F03700;
+}
+
+.btnText:active {
+    border: none;
+    background-color: transparent;
+    color: #4B85AD;
+}
+
+.btnText a:link, .btnText a:visited, .btnText a:active {
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+
+.btnText img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 0px -4px 10px;
+}
+
+.btnCircle {
+    background-color: #F03700;
+    color: white;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    min-height: 60px;
+    min-width: 60px;
+    border: none;
+    border-radius: 45px;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    margin-top: -50%;
+    font-family: 'Bebas Neue';
+}
+
+.btnCircle:hover {
+    background-color: #F03700;
+    color: white;
+}
+
+.btnCircle:active {
+    background-color: transparent;
+    color: #F03700;
+    border: 2px solid #F03700;
+}
+
+.btnCircle a:link, .btnCircle a:visited, .btnCircle a:active {
+    text-decoration: none;
+    color: white;
+    font-family: 'Assistant';
+    font-weight: 600;
+}
+
+.btnCircle.active a {
+    color: #FD4C00 !important;
+}
+
+.btnCircleSec {
+    background-color: transparent;
+    color: #ffff;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 45px;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Assistant';
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.btnCircleSec:hover {
+    background-color: transparent;
+    color: #FD4C00;
+    font-weight: 600;
+}
+
+.btnCircleSec:active {
+    background-color: transparent;
+    color: #F03700;
+    font-weight: 600;
+}
+
+.btnCircleSec a:link, .btnCircleSec a:visited, .btnCircleSec a:active {
+    text-decoration: none;
+    color: white;
+    font-family: 'Assistant';
+    font-weight: 600;
+}
+
+.btnCircleSec.active a {
+    color: #FD4C00 !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .btnText {
+        border-bottom: none;
+    }
+}
