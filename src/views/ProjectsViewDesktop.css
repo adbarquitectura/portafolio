@@ -93,7 +93,7 @@
         max-height: 200px;
         object-fit: cover;
         position: absolute;
-        margin-top: -150px;
+        margin-top: -220px;
         margin-right: -150px;
         padding: 15px;
         box-sizing: border-box;
@@ -121,5 +121,8 @@
         display: flex;
         justify-self: start;
         justify-content: start;       
+    }
+    .box-link-card-desktop button {
+        margin-right: 50px;      
     }
 }
