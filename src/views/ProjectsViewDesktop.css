@@ -7,7 +7,6 @@
 @media only screen and (min-width: 768px) {
     .box-projects-desktop {
         display: block;
-        padding-bottom: 30px;
         height: auto;
         box-sizing: border-box;
         background-color: #021130;
@@ -93,7 +92,7 @@
         max-height: 200px;
         object-fit: cover;
         position: absolute;
-        margin-top: -220px;
+        margin-top: -150px;
         margin-right: -150px;
         padding: 15px;
         box-sizing: border-box;

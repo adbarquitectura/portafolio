@@ -3,9 +3,6 @@ import './ProjectsViewDesktop.css';
 import ButtonSecundaryLink from '../components/buttons/ButtonSecundaryLink';
 import ButtonPrimaryLink from '../components/buttons/ButtonPrimaryLink';
 
-
-// import Carousel from 'react-bootstrap/Carousel';
-
 const ProjectsViewDesktop = () => {
     const [dataProject, setDataProject] = useState([]);
 
