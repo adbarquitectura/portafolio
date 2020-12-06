@@ -3,6 +3,7 @@ import './HomeView.css';
 import NetworksSection from '../components/fixed-components/NetworksSection';
 import Menu from '../components/fixed-components/Menu';
 import NavBar from '../components/fixed-components/NavBar';
+import Footer from '../components/fixed-components/Footer';
 
 
 const HomeView = () => {
@@ -18,7 +19,7 @@ const HomeView = () => {
                 linkToThird='/contact'
                 liThirdText='Contacto'
             />
-
+            <Footer />
         </div>
     )
 }
