@@ -20,16 +20,16 @@ const AboutViewDesktop = () => {
             <div className="box-about-cv-desktop">
 
                 <div className="box-about-cv-photo">
-                    <img className="box-img-photo-desktop" src={photo2} alt="" />
+                    <img  src={photo2} alt="" />
                 </div>
 
                 <div className="box-about-cv-text">
                     <TitleAbout />
 
-                    <p><spa>"</spa>
+                    <p>
                         Siento pasión y compromiso por lo que hago, aprendo rápido,
                         siempre persistente, curiosa por aprender, analítica y estructurada.
-                        Trabajo bien bajo presión, de forma colaborativa e inter- área.<spa>"</spa></p>
+                        Trabajo bien bajo presión, de forma colaborativa e inter- área.</p>
 
                     <ButtonPrimary
                         contenidobtn='Currículum'
@@ -38,11 +38,11 @@ const AboutViewDesktop = () => {
                 </div>
 
                 <div className="box-about-cv-note">
-                    <p>
+                    <p><spa>"</spa>
                         Convertirme en desarrolladora front-end en 6 meses, liderar
                         importantes proyectos desde su nacimiento hasta su finalización
                         y cursar dos estudios universitarios simultáneamente han sido mis
-                mayores restos.</p>
+                mayores restos.<spa>"</spa></p>
 
                 </div>
 

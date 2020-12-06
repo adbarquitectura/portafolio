@@ -16,6 +16,7 @@
     .box-about-cv-desktop {
         display: flex;
         justify-content: space-between;
+        flex-wrap: no-wrap;
     }
     .box-about-cv-text p {
         color: #021130;
@@ -23,26 +24,45 @@
         padding: 0px 30px 0px 0px;
     }
     .box-about-cv-photo {
-        background-color: green;
+        box-sizing: border-box;
     }
     .box-about-cv-photo img {
+        filter: grayscale(100%);
         mix-blend-mode: luminosity;
+        position: relative;
+        margin-bottom: -5px;
+        margin-left: 10px;
+        margin-top: -10px;
     }
     .box-about-cv-text {
+        width: 100%;
         background-color: tomato;
+        box-sizing: border-box;
     }
     .box-about-cv-note {
+        width: 100%;
         background-color: yellow;
+        align-self: center;
+        padding: 30px;
+        box-sizing: border-box;
     }
     .box-about-interes-desktop {
         padding: 30px;
         background-color: #021130;
     }
     .box-about-interes-cv-desktop {
-        display: flex;        
+        display: flex;
         justify-content: space-between;
     }
-    .box-tag-desktop a:link, .box-tag-desktop a:visited, .box-tag-desktop a:active {
+    .box-about-cv-note span {
+        font-size: 96px;
+        font-family: 'Bebas Neue';
+        font-weight: 400;
+        color: #021130;
+        line-height: 0;
+    }
+
+/*  .box-tag-desktop a:link, .box-tag-desktop a:visited, .box-tag-desktop a:active {
         line-height: 35px;
         font-size: 20px;
         color: #E97451;
@@ -52,10 +72,13 @@
     }
     .box-tag-desktop {
         display: block;
-        width: 100%;
-    }
-    /* CvSection*/
-    /*  .box-img-photo-desktop img {
+        width: 100%; */
+
+
+
+/* CvSection*/
+
+/*  .box-img-photo-desktop img {
         background-color: magenta;
         mix-blend-mode: luminosity;
         width: 120%;
@@ -113,18 +136,22 @@
         letter-spacing: 5px;
         margin-bottom: 15px;
     } */
-    .box-about-interes-desktop li {
-        color: #ffff;
-        padding: 3px;
-        font-weight: 100;
-        font-size: 18px;
-    }
-    /* Skills section*/
-    .box-skills {
-        padding: 30px;
-        background-color: #003D5D;
-    }
-    /* .box-in-skills {
+
+.box-about-interes-desktop li {
+    color: #ffff;
+    padding: 3px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+/* Skills section*/
+
+.box-skills {
+    padding: 30px;
+    background-color: #003D5D;
+}
+
+/* .box-in-skills {
         display: flex;
         justify-content: center;
         margin: auto;
@@ -157,4 +184,5 @@
         height: 100px;
         object-fit: contain;
     } */
+
 }
