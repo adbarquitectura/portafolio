@@ -54,7 +54,7 @@
         display: flex;
         justify-content: space-between;
     }
-    .box-about-cv-note span {
+    .box-about-cv-note span{
         font-size: 96px;
         font-family: 'Bebas Neue';
         font-weight: 400;
@@ -62,6 +62,13 @@
         line-height: 0;
     }
 
+    .box-about-interes-desktop h2{
+        color: #F03700;
+        line-height: 20px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
+    }
 /*  .box-tag-desktop a:link, .box-tag-desktop a:visited, .box-tag-desktop a:active {
         line-height: 35px;
         font-size: 20px;

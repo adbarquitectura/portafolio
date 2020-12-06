@@ -20,7 +20,7 @@ const AboutViewDesktop = () => {
             <div className="box-about-cv-desktop">
 
                 <div className="box-about-cv-photo">
-                    <img  src={photo2} alt="" />
+                    <img src={photo2} alt="" />
                 </div>
 
                 <div className="box-about-cv-text">
@@ -38,11 +38,11 @@ const AboutViewDesktop = () => {
                 </div>
 
                 <div className="box-about-cv-note">
-                    <p><spa>"</spa>
+                    <p><span>"</span>
                         Convertirme en desarrolladora front-end en 6 meses, liderar
                         importantes proyectos desde su nacimiento hasta su finalización
                         y cursar dos estudios universitarios simultáneamente han sido mis
-                mayores restos.<spa>"</spa></p>
+                mayores resto.<span>"</span></p>
 
                 </div>
 
