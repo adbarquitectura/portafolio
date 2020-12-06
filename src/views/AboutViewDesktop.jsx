@@ -31,18 +31,22 @@ const AboutViewDesktop = () => {
                         siempre persistente, curiosa por aprender, analítica y estructurada.
                         Trabajo bien bajo presión, de forma colaborativa e inter- área.</p>
 
-                    <ButtonPrimary
-                        contenidobtn='Currículum'
-                        funcion={() => openFile(cv)}
-                    />
+
+                    <div className="box-link-card-desktop">
+                        <ButtonPrimary
+                            contenidobtn='Currículum'
+                            funcion={() => openFile(cv)}
+                        />
+                    </div>
+
                 </div>
 
                 <div className="box-about-cv-note">
-                    <p><span>"</span>
+                    <p>
                         Convertirme en desarrolladora front-end en 6 meses, liderar
                         importantes proyectos desde su nacimiento hasta su finalización
                         y cursar dos estudios universitarios simultáneamente han sido mis
-                mayores resto.<span>"</span></p>
+                mayores resto.</p>
 
                 </div>
 
