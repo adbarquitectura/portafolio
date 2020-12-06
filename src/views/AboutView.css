@@ -75,15 +75,17 @@
     line-height: 20px;
     font-weight: 600;
     letter-spacing: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .box-skills h2 {
     color: #F03700;
     line-height: 20px;
     font-weight: 600;
-    letter-spacing: 5px;
-    margin-bottom: 15px;
+    letter-spacing: 5px;    
+    margin-bottom: 30px;
+    margin-top: 60px;
 }
 
 .box-about-interes li {
@@ -168,5 +170,9 @@
         width: 100px;
         height: 100px;
         object-fit: contain;
+    }
+    .box-skills h2 {       
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
 }
