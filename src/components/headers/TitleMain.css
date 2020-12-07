@@ -19,6 +19,17 @@
     right: 0;
     bottom: 0;
     margin: auto;
+    animation-name: title1;
+    animation-duration: 4s;
+}
+
+@keyframes title1 {
+    from {
+        left: -100%;
+    }
+    to {
+        right: 0;
+    }
 }
 
 .h-orange {
@@ -28,6 +39,16 @@
     padding-top: 30px;
     padding-left: 25px;
     padding-bottom: 0;
+    animation-name: title2;
+    animation-duration: 4s;
+}
+@keyframes title2 {
+    from {
+        padding-right: 100px;
+    }
+    to {
+        padding-left: 25px;
+    }
 }
 
 .box-texts-header h2 {
@@ -38,7 +59,8 @@
     position: relative;
     top: -10px;
 }
-.h-white-desktop{
+
+.h-white-desktop {
     display: none;
 }
 
@@ -48,19 +70,17 @@
         text-align: left;
         align-items: left;
     }
-    
     .box-texts-main {
-       display: none;
+        display: none;
     }
-      
     .h-orange {
         display: none;
     }
-    .h-white-desktop{        
+    .h-white-desktop {
         display: block;
         line-height: 0;
     }
-    .h-white-desktop span{
+    .h-white-desktop span {
         color: #F03700;
     }
 }
