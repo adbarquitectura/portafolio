@@ -42,12 +42,15 @@
     animation-name: title2;
     animation-duration: 4s;
 }
+
 @keyframes title2 {
     from {
         padding-right: 100px;
+        color: #021130;
     }
     to {
         padding-left: 25px;
+        color: #F03700;
     }
 }
 
@@ -79,8 +82,28 @@
     .h-white-desktop {
         display: block;
         line-height: 0;
+        animation-name: title1;
+        animation-duration: 4s;
+    }
+    @keyframes title1 {
+        from {
+            padding-left: 100%;
+        }
+        to {
+            padding-right: 100%;
+        }
     }
     .h-white-desktop span {
         color: #F03700;
+        animation-name: title2;
+        animation-duration: 4s;
+    }
+    @keyframes title2 {
+        from {
+            color: #021130;
+        }
+        to {
+            color: #F03700;
+        }
     }
 }
