@@ -6,21 +6,19 @@ import ButtonText from '../buttons/ButtonText';
 const TextDescriptionItem = (props) => {
     const [styleBoxText, setStyleBoxText] = useState({ display: 'none' })
 
-    const showText = () => {
+    const showText = (anchor) => {
         if (window.matchMedia("(max-width: 400px)").matches) {
             setStyleBoxText({
-                display: 'block',
-                animationName: 'example',
-                animationDuration: '0.5s',
+                display: 'block'
             });
         }      
-
+        window.location.href = "#"+anchor;
     }
     return (
         <div className="box-text-description">
             <ButtonText
                 contenidobtn={props.nameProject}
-                funcion={showText}
+                funcion={()=>showText(props.nameProject)}
             />
             <div style={styleBoxText} >
                 <p>{props.descriptionProject}</p>

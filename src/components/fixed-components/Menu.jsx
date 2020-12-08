@@ -15,6 +15,7 @@ import ContactModule from './ContactModule';
 import ContactView from '../../views/ContactView';
 import ProjectsViewDesktop from '../../views/ProjectsViewDesktop';
 import AboutViewDesktop from '../../views/AboutViewDesktop';
+import ScrollToTop from './ScrollToTop';
 
 const Menu = (props) => {
     const [textButtonCircle, setTextButtonCircle] = useState('+');
@@ -44,7 +45,7 @@ const Menu = (props) => {
 
     return (
         <Router>
-         
+         <ScrollToTop />
             <Switch>
                 <Route exact path='/'>
                     <PresentationHome />

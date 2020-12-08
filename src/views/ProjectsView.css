@@ -137,21 +137,27 @@
         display: none;
     }
     .box-cards-projects {
+        padding-left: 30px;
+        padding-right: 30px;
         display: flex;
         box-sizing: border-box;
+        width: 100%;
+        flex-flow: wrap;
+        align-self: center;
+        justify-content: space-between;
     }
     .box-cards-single:nth-child(even) {
-        margin: 30px;
-        min-width: 250px;
-        min-height: 250px;
+        margin: 15px;
+        width: 240px;
+        height: 220px;
         display: flex;
         justify-content: center;
         align-items: flex-end;
     }
     .box-cards-single:nth-child(odd) {
-        margin: 30px;
-        min-width: 250px;
-        min-height: 250px;
+        margin:15px;
+        width: 240px;
+        height: 220px;
         display: flex;
         justify-content: center;
         align-items: flex-end;

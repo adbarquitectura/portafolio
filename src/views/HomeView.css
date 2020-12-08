@@ -1,5 +1,9 @@
 .box-home-main {
     background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .box-home-content {
@@ -9,7 +13,13 @@
 }
 
 .box-img-photo {
-    display: none;
+    display: block;
+    position: absolute;
+    margin-top: -130px;
+    box-sizing: border-box;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+    opacity: 0.6;
 }
 
 @media only screen and (min-width: 768px) {
