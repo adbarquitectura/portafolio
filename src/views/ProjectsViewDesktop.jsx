@@ -24,7 +24,7 @@ return (
             {
                 dataProject !== undefined && dataProject.map((project, index) => {
                     return (
-                        <div style={{ backgroundImage: `url('${project.imgback}')` }} key={index} className="box-cards-single-desktop">
+                        <div id={project.name} style={{ backgroundImage: `url('${project.imgback}')` }} key={index} className="box-cards-single-desktop">
 
                             <div className="box-cards-in-single-desktop">
                                 <div className="box-img-card-desktop">
