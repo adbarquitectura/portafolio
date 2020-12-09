@@ -46,7 +46,7 @@ const AboutViewDesktop = () => {
                         Convertirme en desarrolladora front-end en 6 meses, liderar
                         importantes proyectos desde su nacimiento hasta su finalización
                         y cursar dos estudios universitarios simultáneamente han sido mis
-                mayores resto.</p>
+                mayores retos.</p>
 
                 </div>
 
