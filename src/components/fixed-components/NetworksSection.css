@@ -19,10 +19,19 @@ a img {
     width: 32px;
     height: 32px;
 }
-
+.btnLateral-networks-mail{
+    display: none;
+}
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+    .btnLateral-networks-mail{
+        display: block;
+        margin: 0;
+        right: 0;
+    }
     .btnLateral-networks {
+        background-color: #F03700;
+        height: 180px;
         top: 150px;       
     }
 }
