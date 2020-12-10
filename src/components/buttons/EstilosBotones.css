@@ -206,7 +206,7 @@
     .btTop-scrolled {
         display: block;
     }
-    .btTop {        
+    .btTop {
         position: fixed;
         width: 60px;
         height: 60px;
@@ -219,11 +219,14 @@
         border: none;
         border-radius: 35px;
         padding: 5px;
-        scroll-behavior: smooth;        
+        scroll-behavior: smooth;
+    }
+    .btTop:hover {
+        background-color: #003D5D;
     }
     .btTop img {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         margin: auto;
         top: 0;
         bottom: 0;

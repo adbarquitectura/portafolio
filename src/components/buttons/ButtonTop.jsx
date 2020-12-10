@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './EstilosBotones.css';
-import arrow from '../../assets/icons/mail.png';
+import arrow from '../../assets/icons/top.png';
 
 const ButtonTop = () => {
     const [scrolled, setScrolled] = React.useState('');
