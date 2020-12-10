@@ -28,10 +28,9 @@
         flex-wrap: no-wrap;
         box-sizing: border-box;
         background: #B0C4CE;
-        min-height: 400px;
+        min-height: 200px;
     }
-
-    .box-about-cv-photo p{
+    .box-about-cv-photo p {
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
@@ -40,22 +39,28 @@
         padding-right: 50px;
         text-align: left;
         color: #021130;
-    }  
+    }
     .box-about-cv-text {
-        width: 120%;
+        width: 100%;
         box-sizing: border-box;
         align-self: start;
         padding-left: 30px;
         padding-right: 80px;
     }
     .box-about-cv-note {
-        width: 60%;
+        width: 100%;
+        align-self: flex-start;
+        margin: 0px 50px 0px 0px;
+        padding: 15px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    .box-about-cv-note p {
         background-color: #021130;
         border-radius: 50px 0px;
-        align-self: center;
-        margin: 50px;
+        margin: 25px 50px;
         padding: 30px;
-        box-sizing: border-box;
+        min-height: 100px;
     }
     .box-about-interes-desktop {
         padding: 30px;
