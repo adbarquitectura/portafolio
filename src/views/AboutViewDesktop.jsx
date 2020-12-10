@@ -19,22 +19,12 @@ const AboutViewDesktop = () => {
         <div id="acerca" className="box-about-desktop">
             <div className="box-about-cv-desktop">
 
-                <div className="box-about-cv-photo">
-                    <img src={photo2} alt="" />
-                </div>
-
                 <div className="box-about-cv-text">
                     <TitleAbout />
 
-                    <p>
-                        Siento pasión y compromiso por lo que hago, aprendo rápido,
-                        siempre persistente, curiosa por aprender, analítica y estructurada,
-                        con interés en el desarrollo de propuesta de innovación tecnológica,
-                        soluciones web y diseño de interfaz, orientadas al manejo efectivo de
-                        recursos y al logro eficiente de resultados que mejoren constantemente
-                        la experiencia del usuario y del mundo; habituada a un alto nivel de
-                        exigencia y trabajo colaborativo e inter-áreas a través de la
-                    implementación de metodologías agiles.</p>
+                    <p>Siento pasión y compromiso por lo que hago, aprendo rápido,
+                    siempre persistente, curiosa por aprender, analítica y estructurada.
+                Trabajo bien bajo presión, de forma colaborativa e inter- área.</p>
 
 
                     <div className="box-link-card-desktop">
@@ -56,6 +46,19 @@ const AboutViewDesktop = () => {
                 </div>
 
             </div>
+
+            <div className="box-about-cv-photo">
+                <p>Me oriento al desarrollo de propuestas de innovación tecnológica,
+                inteligencia artificial, soluciones web y diseño de interfaz.
+                <span>Optimizar recursos y avanzar con un paso adelante son parte de mis 
+                prioridades en cualquier proyecto.</span></p>
+
+                <CvSection
+                    photo={photo2}
+                />
+
+            </div>
+
 
             <Skills />
 
