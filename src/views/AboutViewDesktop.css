@@ -7,14 +7,14 @@
 @media only screen and (min-width: 768px) {
     .box-about-desktop {
         display: block;
-        min-height: 300px;
         box-sizing: border-box;
     }
     .box-about-cv-desktop {
         display: flex;
         justify-content: space-between;
         flex-wrap: no-wrap;
-        
+        padding-top: 50px;
+        min-height: 500px;
     }
     .box-about-cv-text p {
         color: #021130;
@@ -23,17 +23,21 @@
     }
     .box-about-cv-photo {
         box-sizing: border-box;
+        width: 70%;
     }
     .box-about-cv-photo img {
         filter: grayscale(100%);
         mix-blend-mode: luminosity;
         position: relative;
-        margin-bottom: -5px;
-        margin-left: 10px;
+        object-fit: cover;
+        /* margin-left: 10px; */
         margin-top: -10px;
+        margin-bottom: -50px;
+        min-width: 400px;
+        z-index: -10000;
     }
     .box-about-cv-text {
-        width: 100%;
+        width: 120%;
         box-sizing: border-box;
         align-self: start;
     }
@@ -97,6 +101,6 @@
     /* Skills section*/
     .box-skills {
         padding: 30px;
-        background-color: #003D5D;
+        background-color: #021130;
     }
 }

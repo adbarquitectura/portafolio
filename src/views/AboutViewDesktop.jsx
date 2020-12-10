@@ -28,8 +28,13 @@ const AboutViewDesktop = () => {
 
                     <p>
                         Siento pasión y compromiso por lo que hago, aprendo rápido,
-                        siempre persistente, curiosa por aprender, analítica y estructurada.
-                        Trabajo bien bajo presión, de forma colaborativa e inter- área.</p>
+                        siempre persistente, curiosa por aprender, analítica y estructurada,
+                        con interés en el desarrollo de propuesta de innovación tecnológica,
+                        soluciones web y diseño de interfaz, orientadas al manejo efectivo de
+                        recursos y al logro eficiente de resultados que mejoren constantemente
+                        la experiencia del usuario y del mundo; habituada a un alto nivel de
+                        exigencia y trabajo colaborativo e inter-áreas a través de la
+                    implementación de metodologías agiles.</p>
 
 
                     <div className="box-link-card-desktop">
@@ -54,7 +59,7 @@ const AboutViewDesktop = () => {
 
             <Skills />
 
-            <div className="box-about-interes-desktop">
+            {/* <div className="box-about-interes-desktop">
                 <h2 id="intereses">intereses</h2>
                 <div className="box-about-interes-cv-desktop">
                     <div className="box-about-interes-cv-p">
@@ -83,7 +88,7 @@ const AboutViewDesktop = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
         </div>
     )
