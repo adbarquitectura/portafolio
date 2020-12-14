@@ -31,10 +31,13 @@ a img {
     }
     .btnLateral-networks {
         background-color: #F03700;
+        transition-duration: 0.4s;
         height: 180px;
         top: 150px;       
     }
-
+    .btnLateral-networks:hover {
+        background-color: #003D5D             
+    }
     a img:hover {
         transform: scale(1.25,1.25)
     }
