@@ -19,17 +19,12 @@ const AboutViewDesktop = () => {
         <div id="acerca" className="box-about-desktop">
             <div className="box-about-cv-desktop">
 
-                <div className="box-about-cv-photo">
-                    <img src={photo2} alt="" />
-                </div>
-
                 <div className="box-about-cv-text">
                     <TitleAbout />
 
-                    <p>
-                        Siento pasión y compromiso por lo que hago, aprendo rápido,
-                        siempre persistente, curiosa por aprender, analítica y estructurada.
-                        Trabajo bien bajo presión, de forma colaborativa e inter- área.</p>
+                    <p>Siento pasión y compromiso por lo que hago, aprendo rápido,
+                    siempre persistente, curiosa por aprender, analítica y estructurada.
+                Trabajo bien bajo presión, de forma colaborativa e inter- área.</p>
 
 
                     <div className="box-link-card-desktop">
@@ -46,15 +41,28 @@ const AboutViewDesktop = () => {
                         Convertirme en desarrolladora front-end en 6 meses, liderar
                         importantes proyectos desde su nacimiento hasta su finalización
                         y cursar dos estudios universitarios simultáneamente han sido mis
-                mayores resto.</p>
+                mayores retos.</p>
 
                 </div>
 
             </div>
 
+            <div className="box-about-cv-photo">
+                <p>Me oriento al desarrollo de propuestas de innovación tecnológica,
+                inteligencia artificial, soluciones web y diseño de interfaz.
+                <span>Optimizar recursos y avanzar con un paso adelante son parte de mis 
+                prioridades en cualquier proyecto.</span></p>
+
+                <CvSection
+                    photo={photo2}
+                />
+
+            </div>
+
+
             <Skills />
 
-            <div className="box-about-interes-desktop">
+            {/* <div className="box-about-interes-desktop">
                 <h2 id="intereses">intereses</h2>
                 <div className="box-about-interes-cv-desktop">
                     <div className="box-about-interes-cv-p">
@@ -83,7 +91,7 @@ const AboutViewDesktop = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
         </div>
     )

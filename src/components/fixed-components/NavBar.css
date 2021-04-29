@@ -7,14 +7,13 @@
         display: flex;
         position: fixed;
         z-index: 100000;
-        width: 60%;
+        width: 100%;
         top: 0;
         right: 0;
         justify-content: flex-end;
         align-items: center;
         transition: 0.5s;
         padding: 30px 100px;
-        border-radius: 0px 0px 150px 150px;
     }
     .box-menu-desktop {
         position: relative;
@@ -37,7 +36,6 @@
           color: #F03700;      
     }
     .box-navBar-scroll {
-        background-color: #021130;
-        border-radius: 0px 0px 150px 150px;
+        background-color: rgba(2, 17, 48, 0.85);  
     }
 }

@@ -43,7 +43,7 @@
 }
 
 .btnSecundary {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.08);
     color: white;
     box-sizing: border-box;
     transition-duration: 0.4s;
@@ -198,7 +198,45 @@
     color: #FD4C00 !important;
 }
 
+.btTop {
+    display: none;
+}
+
 @media only screen and (min-width: 768px) {
+    .btTop-scrolled {
+        display: block;
+    }
+    .btTop {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        z-index: 20000;
+        bottom: 25px;
+        right: 25px;
+        background-color: #F03700;
+        box-sizing: border-box;
+        transition-duration: 0.4s;
+        border: none;
+        border-radius: 35px;
+        padding: 5px;
+        scroll-behavior: smooth;
+    }
+    .btTop:hover {
+        background-color: #003D5D;
+    }
+    .btTop img {
+        width: 35px;
+        height: 35px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 0;
+    }
+    .btTop img:hover {
+        transform: scale(1.25, 1.25);
+    }
     .btnText {
         border-bottom: none;
     }

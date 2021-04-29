@@ -2,6 +2,7 @@ import React from 'react';
 import './NetworksSection.css';
 import linkedin from '../../assets/icons/linkedin.png';
 import github from '../../assets/icons/github.png';
+import mail from '../../assets/icons/mail.png';
 
 const NetworksSection = () => {
     return (
@@ -20,6 +21,13 @@ const NetworksSection = () => {
                 rel='noopener noreferrer'
             >
                 <img src={github} alt='GitHub' />
+            </a>
+            <a
+                href='mailto:adnamadiaz@gmail.com'
+                rel='noopener noreferrer'
+                className="btnLateral-networks-mail"
+            >
+                <img  src={mail} alt='mail' />
             </a>
         </div>
 
