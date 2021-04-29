@@ -10,14 +10,13 @@ const PresentationHome = () => {
             <img className="box-img-photo" src={photo2} alt="" />
             <div>
                 <TitleMain />
-                <h2>|amanda diaz|</h2>
+                <h2>Arquitecto</h2>
                 <p>
                     “En las soluciones tecnológicas  fusiono mis conocimientos
                     en el área de programación, diseño y administración, generando
                     propuestas de valor que intenten responder a las necesidades del
                     futuro utilizando menos recursos.”
-            </p>
-                <h4>Conoce más de mí</h4>
+            </p>                
                 <img className="box-img-icon" src={nexticon} alt="" />
             </div>
 

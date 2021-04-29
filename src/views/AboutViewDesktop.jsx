@@ -22,9 +22,12 @@ const AboutViewDesktop = () => {
                 <div className="box-about-cv-text">
                     <TitleAbout />
 
-                    <p>Siento pasión y compromiso por lo que hago, aprendo rápido,
-                    siempre persistente, curiosa por aprender, analítica y estructurada.
-                Trabajo bien bajo presión, de forma colaborativa e inter- área.</p>
+                    <p>
+                        Siento pasión y compromiso por lo que hago, aprendo rápido,
+                        siempre persistente, con gran actitud frente a los desafíos,
+                        empática, curiosa por aprender, analítica y estructurada.
+                        Trabajo bien bajo presión, de forma colaborativa e inter- área.
+                    </p>
 
 
                     <div className="box-link-card-desktop">
@@ -49,8 +52,9 @@ const AboutViewDesktop = () => {
 
             <div className="box-about-cv-photo">
                 <p>Me oriento al desarrollo de propuestas de innovación tecnológica,
-                inteligencia artificial, soluciones web y diseño de interfaz.
-                <span>Optimizar recursos y avanzar con un paso adelante son parte de mis 
+                soluciones web y diseño de interfaz. Disfruto planificar e idear
+                estrategias para optimizar los recursos y llevar al equipo al puerto
+                del éxito.<span>Optimizar recursos y avanzar con un paso adelante son parte de mis
                 prioridades en cualquier proyecto.</span></p>
 
                 <CvSection

@@ -15,7 +15,7 @@ const AboutView = () => {
     };
 
     return (
-        <div  className="box-about">
+        <div className="box-about">
             <TitleAbout />
 
             <div className="box-tag">
@@ -33,8 +33,9 @@ const AboutView = () => {
 
             <p className="box-about-p">
                 Siento pasión y compromiso por lo que hago, aprendo rápido,
-                siempre persistente, curiosa por aprender, analítica y estructurada.
-                Trabajo bien bajo presión, de forma colaborativa e inter- área.
+                siempre persistente, con gran actitud frente a los desafíos, empática,
+                curiosa por aprender, analítica y estructurada. Trabajo bien bajo
+                presión, de forma colaborativa e inter- área.
             </p>
 
             <img src={nexticon2} alt='photo' />
@@ -61,11 +62,10 @@ const AboutView = () => {
                     <li>Innovación tecnológica</li>
                     <li>Desarrollo web</li>
                     <li>Diseño de interfaz</li>
-                    <li>Inteligencia artificial</li>
                     <li>Diseño responsable.</li>
                 </ul>
             </div>
-       
+
         </div>
     )
 }

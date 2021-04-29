@@ -6,7 +6,7 @@ const CvSection = (props) => {
         <div className="box-cv-content">
 
             <p>
-            “La inseguridad de la nada es la certeza del Todo.”
+            “Los buenos equipos hacen la diferencia.”
             <br></br>
             <span>ADB</span>
             </p>

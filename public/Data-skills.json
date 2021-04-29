@@ -24,6 +24,10 @@
         "icon": "./images/data-skill/git.png"
     },
     {
+        "nameTecnology": "Cypress",
+        "icon": "./images/data-skill/cypress.png"
+    },
+    {
         "nameTecnology": "Figma",
         "icon": "./images/data-skill/figma.png"
     },
